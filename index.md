@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to MHYC Blog!
 
-You can use the [editor on GitHub](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+All of the Blogs are in Chinese.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
-### Markdown
+### Blogs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Nothing](404.html)
 
-```markdown
-Syntax highlighted code block
+### Bilibili
 
-# Header 1
-## Header 2
-### Header 3
+Goto [Bilibili](https://space.bilibili.com/1251782597) and sub me
 
-- Bulleted
-- List
+####Contract MHYC
+Use Wechat: MHYC133
 
-1. Numbered
-2. List
+Use E-Mail: MHYC133@outlook.com
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Or just simply go to bilibili.
