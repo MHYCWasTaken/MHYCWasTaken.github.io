@@ -4,6 +4,12 @@ All of the Blogs are in Chinese.
 
 Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
+###R.I.P.
+
+For my second granpa and my dog, Lucky.
+
+[Here's](rip_photo.md) Their's Photos
+
 ### Blogs
 
 [Minecraft](minecraft_index.md)
