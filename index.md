@@ -1,6 +1,6 @@
 ## Welcome to MHYC Blog!
 
-All of the Blogs are in Chinese.
+All of the Blogs are in Chinese.(?)
 
 Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
@@ -8,7 +8,7 @@ Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see git
 
 For my second granpa and my dog, Lucky.
 
-[Here's](rip_photo.md) Their's Photos
+[Here's](rip_photo.md) Theirs Photos
 
 ### Blogs
 
