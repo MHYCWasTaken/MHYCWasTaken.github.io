@@ -11,4 +11,4 @@ MHYC的我的世界Blog:
 
 [MC入坑指南](minecraft/mc_starter.md)
 
-[Minecraft服务器开设指南](minecraft/mc_server)
+[Minecraft服务器开设指南](minecraft/mc_server.md)
