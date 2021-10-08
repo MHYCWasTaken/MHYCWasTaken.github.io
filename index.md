@@ -8,17 +8,17 @@ Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see git
 
 For my second granpa and my dog, Lucky.
 
-[Here's](rip_photo.md) Theirs Photos
+[Here's](_posts/rip_photo.md) Theirs Photos
 
 ### Blogs
 
-[Minecraft](minecraft_index.md)
+[Minecraft](_posts/minecraft_index.md)
 
-[c++](cpp_index.md)
+[c++](_posts/cpp_index.md)
 
-[HTML](html_indx.md)
+[HTML](_posts/html_indx.md)
 
-[Java](java_index.md)
+[Java](_posts/java_index.md)
 
 ### Bilibili
 
