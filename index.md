@@ -4,6 +4,9 @@ All of the Blogs are in Chinese.(?)
 
 Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
+### Music per mounth!
+2021/10/22 Tommy init --CG5
+
 ### UndetectedLand!
 emm... It's a minecrfat mod but still in alpha version.
 
