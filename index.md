@@ -18,7 +18,7 @@ For my second granpa and my dog, Lucky.
 
 ### Blogs
 
-[Minecraft](_posts/minecraft_index.md)
+[Minecraft]({% post_url /_posts/minecraft_index.md %})
 
 [c++](cpp_index.md)
 
