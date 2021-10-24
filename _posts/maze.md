@@ -1,3 +1,8 @@
+---
+layout: post
+title:cpp-maze
+---
+
 # 回溯——迷宫
 先看题：
 
