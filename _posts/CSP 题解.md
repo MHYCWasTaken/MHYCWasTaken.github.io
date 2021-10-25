@@ -214,4 +214,7 @@ while和for保证了一定拿完全部水果才跳出
 
 last避免了比对fruit[i]和fruit[i-1]时出现其中一个水果位是空而需要继续往回找的情况
 
-为什么last定义一定放在while里
+为什么last定义一定放在while里？因为如果不每次while重置last的话：设想一下，剩下两个水果，他们都是1，这次while拿走了一个1，last设定为1，到下次while时，last是1，剩下的最好一个水果也是1，那么if语句永远不满足，for和while也会一直循环下去。。。
+
+## FLAG
+300
