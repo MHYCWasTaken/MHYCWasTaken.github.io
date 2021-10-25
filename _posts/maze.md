@@ -1,6 +1,7 @@
 ---
 layout: post
-title:cpp-maze
+title: cpp-maze
+tag: cpp
 ---
 
 # 回溯——迷宫
