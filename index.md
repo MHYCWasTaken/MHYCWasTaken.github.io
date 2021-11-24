@@ -37,3 +37,7 @@ Use Wechat: MHYC133
 Use E-Mail: MHYC133@outlook.com
 
 Or just simply go to bilibili.
+
+# YouZiHan look here to see Epic account!
+ID:MHYC133@outlook.com
+PassWord:you won't know that here!
