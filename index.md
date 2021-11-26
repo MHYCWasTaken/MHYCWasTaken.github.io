@@ -4,8 +4,8 @@ All of the Blogs are in Chinese.(?)
 
 Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
-### Music per mounth!
-2021/10/22 Tommy init --CG5
+# HAPPY BIRTHDAY DADDY!
+[happy birthday!](./happybirthday.md)
 
 ### UndetectedLand!
 emm... It's a minecrfat mod but still in alpha version.
@@ -14,17 +14,17 @@ emm... It's a minecrfat mod but still in alpha version.
 
 For my second granpa and my dog, Lucky.
 
-[Here's](_posts/rip_photo.md) Theirs Photos
+[Here's](./posts/rip_photo.md) Theirs Photos
 
 ### Blogs
 
-[Minecraft]({% post_url /_posts/minecraft_index.md %})
+[Minecraft](./posts/minecraft_index.md)
 
-[c++](cpp_index.md)
+[c++](./posts/cpp_index.md)
 
-[HTML](_posts/html_indx.md)
+[HTML](./posts/html_indx.md)
 
-[Java](_posts/java_index.md)
+[Java](./posts/java_index.md)
 
 ### Bilibili
 
