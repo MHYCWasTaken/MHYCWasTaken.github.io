@@ -5,7 +5,7 @@ All of the Blogs are in Chinese.(?)
 Goto [github](https://github.com/MHYCWasTaken/MHYCWasTaken.github.io) to see github files.
 
 # HAPPY BIRTHDAY DADDY!
-[happy birthday!](./happybirthday.md)
+[happy birthday!11.26](./happybirthday.md)
 
 ### UndetectedLand!
 emm... It's a minecrfat mod but still in alpha version.
