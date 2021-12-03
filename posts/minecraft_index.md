@@ -9,6 +9,6 @@ Now by Mojang AB Microsoft.（MHYC has no relationship with them）
 
 MHYC的我的世界Blog:
 
-[MC入坑指南](minecraft/mc_starter.md)
+[MC入坑指南](./minecraft/mc_starter.md)
 
-[Minecraft服务器开设指南](minecraft/mc_server.md)
+[Minecraft服务器开设指南](./minecraft/mc_server.md)
