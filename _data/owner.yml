@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "MHYC.TECH"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "MHYC 133"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -29,8 +29,8 @@ creative_commons:
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
+  - github: "MHYCWasTaken"
+  - email: "MHYC133@outlook.com"
   #- linkedin: ""
   #- twitter: ""
   #- instagram: ""
@@ -38,6 +38,7 @@ contacts:
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""
+  - bilibili: "1251782597"
 
 # Disqus Short name, make sure comments and disqus are enabled in _data/conf/posts.yml file
 disqus_shortname: ""

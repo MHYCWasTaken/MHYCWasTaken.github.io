@@ -136,11 +136,11 @@ pager_page_numbers_first_last_buttons: true
 ###########################################################
 comments:
   # to enable comments please set to true, comments can be disabled on any post by setting comments_disable: true
-  enable: true
+  enable: false
   # make sure disqus_shortname is set in _data/owner.yml
   disqus:
     # to enable disqus comments please set to true
-    enable: false
+    enable: true
     # login your disqus account, navigate to admin > settings > Community > Comment Count Link
     # set Zero comments: 0, One comment: 1, Multiple comments: {num} and save it.
     comment_count: true

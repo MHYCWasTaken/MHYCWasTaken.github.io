@@ -21,7 +21,7 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja]
+language_switch_lang_list: [en, zh]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -64,12 +64,12 @@ search_list_hide_mouseleave: false
 # when using mobile browser, search result is shown while typing, but you need to push search button on keyboard.
 # with this option search only is triggered when you finish input.
 # when using pc browser after input, push enter to search.
-search_disable_auto_search: true
+search_disable_auto_search: false
 
 # to disable auto complete for search box
 # since search bar uses dropdown list style.
 # when auto_search is enabled, browsers auto complete box overlaps search result.
-search_disable_auto_complete: true
+search_disable_auto_complete: false
 
 # search with uri parameter on page load
 # ex. https://your_github_user_name.github.io/?search="hello"
@@ -110,11 +110,11 @@ color_scheme_dark: true
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
 # this feature doesn't need switches.
-color_scheme_default_dark: false
+color_scheme_default_dark: true
 
 # default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
 # you don't need to enable this if any switch is enabled.
-color_scheme_browser_color_mode: true
+color_scheme_browser_color_mode: false
 
 # side nav and top nav color scheme switches
 # when any switch is enabled, if browser color scheme is dark, site default color is set to dark at page load.
@@ -200,7 +200,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
+side_nav_profile_img_path: /assets/img/about/book.png
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"

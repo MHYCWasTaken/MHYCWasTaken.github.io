@@ -40,53 +40,143 @@ lng_pair: id_links
 page_data:
   main:
     header: "Links"
-    info: "Your Links page description."
+    info: "Some of MHYC's website collection."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
-      color: "#62b462"
+    - title: "Useful Resources"
+      type: id_resources
+      color: "#AC3232"
+    - title: "Useful Tools"
+      type: id_tools
+      color: "#DF7126"
+    - title: "Useful Applications"
+      type: id_apps
+      color: "#FBF236"
+    - title: "Useful Articles"
+      type: id_good_articles
+      color: "#99E550"
+    - title: "Good Website Design"
+      type: id_website_design
+      color: "#6ABE30"
+    - title: "Time Killer"
+      type: id_time_killer
+      color: "#37946E"
 
   list:
-    -
-    # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+  
+    # apps
+    - type: id_apps
+      title: "KiCAD"
+      url: "https://www.kicad.org/"
+      info: "Open source pcd and schmetics designer, and the only choice on linux."
+    - type: id_apps
+      title: "Lunar Client"
+      url: "https://www.lunarclient.com/"
+      info: "Lunar is a Minecraft Java Client/Launcher for PVP and high FPS"
+    - type: id_apps
+      title: "Labymod客户端"
+      url: "https://www.labymod.net/en/"
+      info: "Labymod is also a Minecraft Java Client for PVP and high FPS"
+    - type: id_apps
+      title: "Motrix"
+      url: "https://motrix.app/"
+      info: "A downloader based by Aria, Say GOODBYE to thunder."
+    - type: id_apps
+      title: "Install Aseprite on Linux"
+      url: "https://docs.shanyuhai.top/design/pixel/install-aseprite-on-linux.html#%E5%AE%89%E8%A3%85"
+      info: "From Blog of 飞跃高山与大海的鱼"
+    
+    # website design
+    - type: id_website_design
+      title: "Interesting Cursor"
+      url: "https://www.cnblogs.com/zhaoqingqing/p/11546010.html"
+      info: "I'm sorry about my focus is on the mouse pointer"
+    - type: id_website_design
+      title: "Interesting Cursor * 2"
+      url: "https://www.cnblogs.com/Potrem/p/51_6.html"
+      info: "I'm very sorry about my focus is on the mouse pointer"
+    - type: id_website_design
+      title: "Interesting design of site"
+      url: "https://embersword.com/"
+      info: "I'm really sorry. My focus is on typesetting and fonts"
+      
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
+    # resources
+    - type: id_resources
+      title: "Jetbrains Mono"
+      url: "https://www.jetbrains.com/lp/mono/"
+      info: "Jetbrain's mono font. Designed for programmer"
+    - type: id_resources
+      title: "基本操作——可以玩的大学课程"
+      url: "https://jibencaozuo.com/zh-Hans/"
+      info: "died"
+    - type: id_resources
+      title: "ZX Spectrum Contents of instructions"
+      url: "https://worldofspectrum.org/ZXBasicManual/"
+      info: "Instructions for an 8-bit computer of the last century"
+    - type: id_resources
+      title: "FontAwesome"
+      url: "https://fontawesome.com"
+      info: "No more worrying about icons"
+    
+      
+    # articles
+    - type: id_good_articles
+      url: "https://www.zhihu.com/question/20112194"
+      title: "为什么计算机能够读懂0和1？(知乎)"
+      info: "A computer composition starting with logic gates (easy to understand)(in Chinese)"
+      
 
-    # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+    # tool
+    - type: id_tools
+      title: "VERSUS Compare"
+      url: "https://versus.com/cn/"
+      info: "Compare everything, including cities, universities and GPUs"
+    - type: id_tools
+      title: "Bullshit Generator"
+      url: "https://suulnnka.github.io/BullshitGenerator/index.html"
+    - type: id_tools
+      title: "Minecraft font pack generator"
+      url: "https://codepen.io/devbobcorn/full/YzZMZvV"
+      info: "Upload ttf file and download font resources pack"
+    - type: id_tools
+      title: "Mountain Finder"
+      url: "https://www.peakfinder.org/"
+      info: "Find you favourite mountain(based on bgfx and opensource)"
+    - type: id_tools
+      title: "GodoterCN"
+      url: "https://godoter.cn/"
+      info: "The domestic Godot community has a good atmosphere"
+    - type: id_tools
+      title: "Alternative To"
+      url: "https://alternativeto.net/"
+      info: "When you find that the required software is not available on linux/mac, come here"
+      
+      
+    # time killer
+    - type: id_time_killer
+      title: "Spirisut of sound"
+      url: "https://pos.biborg.com/fr/"
+      info: "I don't know which country's powerful developers made three Parkour"
+    - type: id_time_killer
+      title: "DLS Sandbox"
+      url: "https://dls.makingartstudios.com/sandbox/"
+      info: "Logic gate sandbox, It is suggested to use with “为什么计算机能够读懂0和1？(知乎)”"
+    - type: id_time_killer
+      title: "EmberSword"
+      url: "https://embersword.com/"
+      info: "An online game based on bgfx. It seems that it can't be registered, but the publicity page is very nice"
+    - type: id_time_killer
+      title: "Lichess"
+      url: "https://lichess.org/"
+      info: "Online free opensource Chess"
+    - type: id_time_killer
+      title: "Play Chess with Stockfish"
+      url: "https://listudy.org/en/play-stockfish"
+      info: "Play Chess against Stockfish(strongest Chess AI, opensource)"
+    - type: id_time_killer
+      title: "Chess Wars"
+      url: "https://dt-mark.itch.io/chess-wars"
+      info: "RPG And Items crack with Chess (free)"
 ---
