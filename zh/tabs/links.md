@@ -87,7 +87,7 @@ page_data:
       title: "在Linux下安装Aseprite"
       url: "https://docs.shanyuhai.top/design/pixel/install-aseprite-on-linux.html#%E5%AE%89%E8%A3%85"
       info: "来自飞跃高山与大海的鱼的博客"
-    
+  
     # website design
     - type: id_website_design
       title: "奇妙鼠标指针"
@@ -105,7 +105,7 @@ page_data:
       title: "非常牛逼的网页版win11"
       url: "https://win11.blueedge.me/"
       info: "真的TNND牛逼"
-      
+  
 
     # resources
     - type: id_resources
@@ -132,14 +132,14 @@ page_data:
       title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
       url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
       info: "电子学自学指南（2）（pdf）"
-    
-      
+  
+  
     # articles
     - type: id_good_articles
       url: "https://www.zhihu.com/question/20112194"
       title: "为什么计算机能够读懂0和1？(知乎)"
       info: "一篇从逻辑门开始讲起的计算机构成（简单易懂）"
-      
+  
 
     # tool
     - type: id_tools
@@ -165,8 +165,12 @@ page_data:
       title: "Alternative To"
       url: "https://alternativeto.net/"
       info: "当你发现需要的软件在linux/mac上没有时，就来这里"
-      
-      
+    - type: id_tools
+      title: "jsfxr"
+      url: "https://sfxr.me/"
+      info: "8bit音效生成，有专业版，似乎不需要付费"
+  
+  
     # time killer
     - type: id_time_killer
       title: "Spirisut of sound"
@@ -236,4 +240,8 @@ page_data:
       title: "Overboy"
       url: "https://overboy.itch.io/"
       info: "不错的游戏工作室，大部分游戏可以在线游玩，下载需money"
+    - type: id_time_killer
+      title: "Bruno-Simon"
+      url: "https://bruno-simon.com/"
+      info: "网页端的开越野车游戏"
 ---
