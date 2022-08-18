@@ -169,6 +169,14 @@ page_data:
       title: "jsfxr"
       url: "https://sfxr.me/"
       info: "8bit音效生成，有专业版，似乎不需要付费"
+    - type: id_tools
+      title: "Jitsi Meetings"
+      url: "https://meet.jit.si/"
+      info: "腾讯会议替代品，免费无需账号的视频会议"
+    - type: id_tools
+      title: "BigBlueButton"
+      url: "https://bigbluebutton.org/"
+      info: "为教师设计的虚拟教室（视频会议）"
   
   
     # time killer
