@@ -2,11 +2,11 @@
 
 <!-- outline-start -->
 
-关于树莓派新手遇到的问题，包括红灯长亮，系统烧录，后续使用
+Xrdp 点击链接没反应，不报错，以及Error connecting to sesman: 0.0.0.0 port: 3350
 
 <!-- outline-end -->
 
-##### （网站建成之后按照log补的）
+##### 
 
 # 02-15
 
