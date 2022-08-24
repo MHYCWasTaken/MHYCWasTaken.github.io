@@ -136,6 +136,10 @@ page_data:
       title: "OI WIKI"
       url: "https://oi-wiki.org/"
       info: "c++竞赛wiki，设计各种算法详解及STL讲解，再也不用去CSDN辣"
+    - type: id_resources
+      title: "Havok Physics"
+      url: "https://www.havok.com/"
+      info: "震荡波物理引擎，此外震荡波还有npc的AI和布料模拟，塞尔达botw使用了全部3个"
   
   
     # articles
@@ -193,6 +197,14 @@ page_data:
       title: "BigBlueButton"
       url: "https://bigbluebutton.org/"
       info: "为教师设计的虚拟教室（视频会议）"
+    - type: id_tools
+      title: "最佳 Minecraft 服务器托管 - RAMShard"
+      url: "https://ramshard.com/hosting/minecraft?referrer=ga"
+      info: "我的世界服务器托管"
+    - type: id_tools
+      title: "ScalaCube - Game Server Hosting"
+      url: "https://scalacube.com/"
+      info: "我的世界服务器托管"
   
   
     # time killer
