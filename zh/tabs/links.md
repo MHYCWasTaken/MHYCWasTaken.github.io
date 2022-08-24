@@ -132,6 +132,10 @@ page_data:
       title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
       url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
       info: "电子学自学指南（2）（pdf）"
+    - type: id_resources
+      title: "OI WIKI"
+      url: "https://oi-wiki.org/"
+      info: "c++竞赛wiki，设计各种算法详解及STL讲解，再也不用去CSDN辣"
   
   
     # articles
@@ -139,6 +143,18 @@ page_data:
       url: "https://www.zhihu.com/question/20112194"
       title: "为什么计算机能够读懂0和1？(知乎)"
       info: "一篇从逻辑门开始讲起的计算机构成（简单易懂）"
+    - type: id_good_articles
+      url: "https://zhuanlan.zhihu.com/p/423120746"
+      title: "从零手写游戏引擎21：物理引擎基础(知乎)"
+      info: "游戏引擎物理部分基础"
+    - type: id_good_articles
+      url: "http://allenchou.net/game-physics-series/"
+      title: "游戏物理系列 | 明伦“艾伦”周 | 周明伦"
+      info: "物理引擎系列"
+    - type: id_good_articles
+      url: "https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop"
+      title: "Raspberry Pi 教程：在 Ubuntu 桌面上托管 Minecraft 服务器 Ubuntu
+      info: "简单直接的mc开服教程，其他地方大同小异"
   
 
     # tool
