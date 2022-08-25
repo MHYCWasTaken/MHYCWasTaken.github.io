@@ -3,7 +3,7 @@ lng_pair: id_Building_personal_blog_With_Jekyll_And_Raspberrypi_4b
 title: 【中】树莓派4b和Jekyll搭建个人博客
 date: 2022-03-06 11:45:14 +0900
 category: guide
-tags: [raspberrypi, jekyll, website]
+tags: [raspberrypi, jekyll, website, software]
 img: ":jekyll.png"
 ---
 
@@ -83,6 +83,8 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 运行 `bundle exec jekyll serve` 启动服务器
 
 在浏览器输入 `127.0.0.1:4000` 就可以看见你的网站了！恭喜！
+
+[没有自己的服务器？试试GithubPages！]()
 
 [常见问题-未完成]()
 
