@@ -6,9 +6,9 @@
 
 <!-- outline-end -->
 
-##### （网站建成之后按照log补的）
+（网站建成之后按照log补的）
 
-# 02-15
+## 02-15
 
 树莓派到货，烧录系统
 
@@ -42,9 +42,9 @@
 
 也可以尝试直接点击下面的链接下载（第一次使用这个功能，如果有问题，请联系MHYC133@outlook.com告知)
 
-[树莓派系统--raspios--无图形化仅命令行（lite）(处于服务器带宽考虑，此链接已经无法下载)](/assets/files/uploads/2022-01-28-raspios-bullseye-armhf-lite.zip)
+[树莓派系统--raspios--无图形化仅命令行（lite）(出于服务器带宽考虑，此链接已经无法下载)](/assets/files/uploads/2022-01-28-raspios-bullseye-armhf-lite.zip)
 
-[树莓派系统--raspios--图形化系统(处于服务器带宽考虑，此链接已经无法下载)](/assets/files/uploads/2022-01-28-raspios-bullseye-armhf.zip)
+[树莓派系统--raspios--图形化系统(出于服务器带宽考虑，此链接已经无法下载)](/assets/files/uploads/2022-01-28-raspios-bullseye-armhf.zip)
 
 安装DiskGenius，删除sd卡所有分区（选中分区按delete或者右键删除分区）
 
@@ -60,7 +60,7 @@
 
 网上有说一些别的软件，但是都没BalenaEtcher稳定
 
-# 02-16
+## 02-16
 
 焯炸了
 
@@ -68,7 +68,7 @@
 
 找了一天问题
 
-# 02-17
+## 02-17
 
 ok解决了，来看看我找到了些什么
 
@@ -97,3 +97,10 @@ ok解决了，来看看我找到了些什么
 关闭树莓派，插上正常系统sd卡，成功!
 
 [官方的问题解决](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-4-boot-eeprom)(往下翻一点)
+
+## 参考资料
+
+[树莓派官网](https://raspberrypi.org)  
+[树莓派官网论坛的帖子](https://forums.raspberrypi.com/viewtopic.php?p=1971581&hilit=red+light#p1971581)  
+[EEPROM修复iso](https://github.com/raspberrypi/rpi-eeprom/)
+[官方的问题解决](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-4-boot-eeprom)
