@@ -169,7 +169,7 @@ CustomDomain填入你的域名，二级域名也可以，前提是域名是你�
 
 ## 参考资料
 
-[Watt Toolkit（原Steam++）](https://steampp.net/)
+[Watt Toolkit（原Steam++）](https://steampp.net/)  
 [官网的教程](http://steampp.net/faq)
 
 ## 解决缺点
