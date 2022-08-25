@@ -9,7 +9,7 @@ author: MHYC133
 # multiple category is not supported
 category: guide
 # multiple tag entries are possible
-tags: [rasberrypi]
+tags: [rasberrypi, hardware]
 # thumbnail image for post
 img: ":raspi.png"
 # disable comments on this page
