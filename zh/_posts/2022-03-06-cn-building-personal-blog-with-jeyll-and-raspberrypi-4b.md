@@ -7,10 +7,10 @@ tags: [raspberrypi, jekyll, website]
 img: ":jekyll.png"
 ---
 
-# 【中】树莓派4b和Jekyll搭建个人博客
-
 <!-- outline-start -->
+
 GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧。
+
 <!-- outline-end -->
 
 ## 选择博客平台
@@ -18,6 +18,7 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 [这里](https://zhuanlan.zhihu.com/p/25280413)有一些博客平台，我看了看，就Jekyll和WordPress比较好，但是WordPress用到SQL，我打算以后再学，所以就用Jekyll了。
 
 ## 安装Jekyll
+
 **注意：我的设备是树莓派4b，如果你使用更低版本且完全不会自行百度，请跳过此部分**
 
 ### 你需要安装什么（以及如何安装）
@@ -33,18 +34,18 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 
 #### 树莓派4b安装步骤:
 
-1.	```sudo apt-get install ruby-full build-essential```
-2.	```echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc```
-3.	```echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc```
-4.	```echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc```
-5.	```source ~/.bashrc```
-6.	```gem install jekyll bundler```
+1. ``sudo apt-get install ruby-full build-essential``
+2. ``echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc``
+3. ``echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc``
+4. ``echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc``
+5. ``source ~/.bashrc``
+6. ``gem install jekyll bundler``
 
 ## 创建网站:
 
 ### Jekyll开发者
 
-如果你想制作一个Jekyll主题并造福人类(我认为你不是), 运行 ```jekyll new myblog``` 他会在当前目录创建一个名为 `myblog` 的目录，你可以开始表演了。
+如果你想制作一个Jekyll主题并造福人类(我认为你不是), 运行 ``jekyll new myblog`` 他会在当前目录创建一个名为 `myblog` 的目录，你可以开始表演了。
 
 ### 普通玩家
 
@@ -66,9 +67,9 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 
 ![复制这个链接(点击查看图片)](:2022-03-06-01.png)
 
-运行 ```git clone [your theme git link]```
+运行 ``git clone [your theme git link]``
 
-例如我的 'SerialProgrammer': 
+例如我的 'SerialProgrammer':
  `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
 
 进入你的目录: `cd [your theme dir]`
