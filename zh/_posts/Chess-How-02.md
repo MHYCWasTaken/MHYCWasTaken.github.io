@@ -1,5 +1,3 @@
-# 【中】项目Chess--使用Godot的国际象棋（02）
-
 <!-- readme -->
 
 <!-- outline-start -->
@@ -10,7 +8,7 @@
 
 直接开始
 
-# $ 02 / 01 Re:棋盘
+## $ 02 / 01 Re:棋盘
 
 在[Godot官方文档——你的第一个2D游戏:游戏主场景部分:主场景脚本](https://docs.godotengine.org/zh_CN/stable/getting_started/first_2d_game/05.the_main_game_scene.html#main-script)中找到了答案，这个例子在场景四周随即生存怪物，与我们自动生成棋子的需求相似，看看他们怎么做的
 
@@ -73,12 +71,12 @@ func _ready():
 ![效果](:2022-06-05-01.png)
 
 
-# $ 02 / 02 小优化
+## $ 02 / 02 小优化
 
 项目设置中创建一个全局脚本，命名为Global（全球），用于储存一些常量  
 例如 `block_size` 表示棋子格子的材质大小，赋值为150
 
-# $ 02 / 02 Re:棋子
+## $ 02 / 02 Re:棋子
 
 和棋盘格子一样，创建场景命名为Piece，AnimatedSprite，SpriteFrames，附加之前编写的棋子脚步
 
@@ -87,4 +85,6 @@ func _ready():
 ```
 ```
 
+## 啊呀
 
+看来这篇教程烂尾了，如果你希望完成这个项目，可以尝试自己摸索，MHYC也接受提问
