@@ -169,6 +169,11 @@ CustomDomain填入你的域名，二级域名也可以，前提是域名是你�
 
 (doge)
 
+## 参考资料
+
+[Watt Toolkit（原Steam++）](https://steampp.net/)
+[官网的教程](http://steampp.net/faq)
+
 ## 解决缺点
 
 使用本地修改方案并本地搭建服务来达到本地实时渲染显示的效果

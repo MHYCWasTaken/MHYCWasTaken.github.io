@@ -84,6 +84,19 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 
 在浏览器输入 `127.0.0.1:4000` 就可以看见你的网站了！恭喜！
 
+## 参考资料
+
+[14个最好的免费博客平台 - 知乎](https://zhuanlan.zhihu.com/p/25280413)  
+[Jekyll Docs](https://jekyllcn.com/docs/)  
+[文档（前置安装）](https://jekyllrb.com/docs/installation/)  
+[Github Jekyll Themes](https://github.com/topics/jekyll-theme)  
+[Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/)  
+[Jekylltheme.org](http://jekyllthemes.org/)  
+[Jekylltheme.io](https://jekyllthemes.io/)  
+[Jekyll-theme.com](https://jekyll-themes.com/)  
+
+## 后续
+
 [没有自己的服务器？试试GithubPages！](https://mhyc.eu.org/zh/2022-03-06-cn-building-personal-blog-with-jeyll-and-raspberrypi-4b#%E5%AF%BB%E6%89%BE%E4%BD%A0%E7%9A%84%E4%B8%BB%E9%A2%98)
 
 [绑定域名教程](https://mhyc.eu.org/zh/2022-04-22-cn-open-up-your-website)
