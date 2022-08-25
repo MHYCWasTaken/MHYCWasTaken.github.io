@@ -36,6 +36,4 @@ date: 2022-08-24 11:45:14 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-{%- capture readme_file -%}{%- include_relative Xrdp.markdown -%}{%- endcapture -%}
-{%- assign tmp_content = readme_file | split: "`<!-- readme -->`" -%}
-{{tmp_content[1]}}
+
