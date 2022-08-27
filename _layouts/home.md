@@ -43,3 +43,5 @@ layout: default
   </ul>
 </div>
 {% endif -%}
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MHYC" data-description="Support me on Buy me a coffee!" data-message="Thank you for buying me a rocket for only 5 dollars :)" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
