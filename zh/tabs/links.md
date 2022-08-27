@@ -164,58 +164,138 @@ page_data:
     - type: id_good_articles
       url: "https://www.zhihu.com/question/20112194"
       title: "为什么计算机能够读懂0和1？(知乎)"
-      info: "A computer composition starting with logic gates (easy to understand)(in Chinese)"
+      info: "一篇从逻辑门开始讲起的计算机构成（简单易懂）"
+    - type: id_good_articles
+      url: "https://zhuanlan.zhihu.com/p/423120746"
+      title: "从零手写游戏引擎21：物理引擎基础(知乎)"
+      info: "游戏引擎物理部分基础"
+    - type: id_good_articles
+      url: "http://allenchou.net/game-physics-series/"
+      title: "游戏物理系列 | 明伦“艾伦”周 | 周明伦"
+      info: "物理引擎系列"
+    - type: id_good_articles
+      url: "https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop"
+      title: "Raspberry Pi 教程：在 Ubuntu 桌面上托管 Minecraft 服务器 Ubuntu"
+      info: "简单直接的mc开服教程，其他地方大同小异"
       
 
     # tool
     - type: id_tools
-      title: "VERSUS Compare"
+      title: "VERSUS对比"
       url: "https://versus.com/cn/"
-      info: "Compare everything, including cities, universities and GPUs"
+      info: "万物皆可对比，包括城市，大学和GPU"
     - type: id_tools
-      title: "Bullshit Generator"
+      title: "狗屁不通文章生成器"
       url: "https://suulnnka.github.io/BullshitGenerator/index.html"
     - type: id_tools
-      title: "Minecraft font pack generator"
+      title: "我的世界字体包生成"
       url: "https://codepen.io/devbobcorn/full/YzZMZvV"
-      info: "Upload ttf file and download font resources pack"
+      info: "上传ttf文件即可制作字体资源包"
     - type: id_tools
-      title: "Mountain Finder"
+      title: "山峰寻找器"
       url: "https://www.peakfinder.org/"
-      info: "Find you favourite mountain(based on bgfx and opensource)"
+      info: "找到你最熟悉的那座山（基于bgfx渲染且开源）"
     - type: id_tools
       title: "GodoterCN"
       url: "https://godoter.cn/"
-      info: "The domestic Godot community has a good atmosphere"
+      info: "国内的Godot社区，氛围很好"
     - type: id_tools
       title: "Alternative To"
       url: "https://alternativeto.net/"
-      info: "When you find that the required software is not available on linux/mac, come here"
-      
-      
+      info: "当你发现需要的软件在linux/mac上没有时，就来这里"
+    - type: id_tools
+      title: "jsfxr"
+      url: "https://sfxr.me/"
+      info: "8bit音效生成，有专业版，似乎不需要付费"
+    - type: id_tools
+      title: "Jitsi Meetings"
+      url: "https://meet.jit.si/"
+      info: "腾讯会议替代品，免费无需账号的视频会议"
+    - type: id_tools
+      title: "BigBlueButton"
+      url: "https://bigbluebutton.org/"
+      info: "为教师设计的虚拟教室（视频会议）"
+    - type: id_tools
+      title: "最佳 Minecraft 服务器托管 - RAMShard"
+      url: "https://ramshard.com/hosting/minecraft?referrer=ga"
+      info: "我的世界服务器托管"
+    - type: id_tools
+      title: "ScalaCube - Game Server Hosting"
+      url: "https://scalacube.com/"
+      info: "我的世界服务器托管"
+  
+  
     # time killer
     - type: id_time_killer
       title: "Spirisut of sound"
       url: "https://pos.biborg.com/fr/"
-      info: "I don't know which country's powerful developers made three Parkour"
+      info: "不知道哪国的强大开发者制作的三道跑酷"
     - type: id_time_killer
       title: "DLS Sandbox"
       url: "https://dls.makingartstudios.com/sandbox/"
-      info: "Logic gate sandbox, It is suggested to use with “为什么计算机能够读懂0和1？(知乎)”"
+      info: "逻辑门的沙盒，建议搭配“为什么计算机能够读懂0和1？(知乎)”食用"
     - type: id_time_killer
       title: "EmberSword"
       url: "https://embersword.com/"
-      info: "An online game based on bgfx. It seems that it can't be registered, but the publicity page is very nice"
+      info: "一款基于bgfx的网游，似乎无法注册但是宣传页面很好看"
     - type: id_time_killer
       title: "Lichess"
       url: "https://lichess.org/"
-      info: "Online free opensource Chess"
+      info: "开源免费在线国际象棋，比国内的那些奇妙的广告喧宾夺主的平台好多了"
     - type: id_time_killer
-      title: "Play Chess with Stockfish"
+      title: "和Stockfish下棋"
       url: "https://listudy.org/en/play-stockfish"
-      info: "Play Chess against Stockfish(strongest Chess AI, opensource)"
+      info: "与最强国象AI(开源)对弈(虽然lichess也行)"
     - type: id_time_killer
       title: "Chess Wars"
       url: "https://dt-mark.itch.io/chess-wars"
-      info: "RPG And Items crack with Chess (free)"
+      info: "RPG和回合制与国际象棋的奇妙融合（免费）"
+    - type: id_time_killer
+      title: "ULTRAKILL"
+      url: "https://hakita.itch.io/ultrakill-prelude"
+      info: "打击感非常好但是略恐怖的极好fps游戏"
+    - type: id_time_killer
+      title: "RE:RUN"
+      url: "https://hakita.itch.io/ultrakill-prelude"
+      info: "跑酷飞刀游戏"
+    - type: id_time_killer
+      title: "Checkmate"
+      url: "https://charlie-morel.itch.io/checkmate"
+      info: "国际象棋+tps"
+    - type: id_time_killer
+      title: "eldritch-eclipse"
+      url: "https://crowbarska.itch.io/eldritch-eclipse"
+      info: "像素风类doom的fps游戏"
+    - type: id_time_killer
+      title: "Mindustry"
+      url: "https://anuke.itch.io/mindustry"
+      info: "混合塔防沙盒工厂游戏，创建传送带供应链，将弹药送入炮塔，生产材料，保护你的建筑"
+    - type: id_time_killer
+      title: "A short hike"
+      url: "https://adamgryu.itch.io/a-short-hike"
+      info: "3维，自由探索，登山，卡通画风(7.99USD)"
+    - type: id_time_killer
+      title: "Desktop Goose"
+      url: "https://samperson.itch.io/desktop-goose"
+      info: "桌面宠物，鹅"
+    - type: id_time_killer
+      title: "Mobs inc"
+      url: "https://overboy.itch.io/mobs-inc"
+      info: "冲刺杀人，打工"
+    - type: id_time_killer
+      title: "Rougelight"
+      url: "https://managore.itch.io/roguelight"
+      info: "卷轴视角地牢，像素画风，低对比度"
+    - type: id_time_killer
+      title: "Force Reboot"
+      url: "https://ln404.itch.io/force-reboot"
+      info: "肉鸽fps，也有极好打击感，但无恐怖元素"
+    - type: id_time_killer
+      title: "Overboy"
+      url: "https://overboy.itch.io/"
+      info: "不错的游戏工作室，大部分游戏可以在线游玩，下载需money"
+    - type: id_time_killer
+      title: "Bruno-Simon"
+      url: "https://bruno-simon.com/"
+      info: "网页端的开越野车游戏"
 ---
