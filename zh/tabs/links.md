@@ -106,23 +106,58 @@ page_data:
       info: "真的TNND牛逼"
       
 
+    # website design
+    - type: id_website_design
+      title: "奇妙鼠标指针"
+      url: "https://www.cnblogs.com/zhaoqingqing/p/11546010.html"
+      info: "非常抱歉我的关注点在鼠标指针上面"
+    - type: id_website_design
+      title: "奇妙鼠标指针(二度)"
+      url: "https://www.cnblogs.com/Potrem/p/51_6.html"
+      info: "真的非常抱歉我的关注点在鼠标指针上面"
+    - type: id_website_design
+      title: "很好看的页面排版和字体"
+      url: "https://embersword.com/"
+      info: "真的非常抱歉我的关注点在排版和字体上面"
+    - type: id_website_design
+      title: "非常牛逼的网页版win11"
+      url: "https://win11.blueedge.me/"
+      info: "真的TNND牛逼"
+  
+
     # resources
     - type: id_resources
       title: "Jetbrains Mono"
       url: "https://www.jetbrains.com/lp/mono/"
-      info: "Jetbrain's mono font. Designed for programmer"
+      info: "Jetbrain自带的等宽字体，专为程序员设计"
     - type: id_resources
       title: "基本操作——可以玩的大学课程"
       url: "https://jibencaozuo.com/zh-Hans/"
-      info: "died"
+      info: "已经没用咧，默哀3秒钟"
     - type: id_resources
-      title: "ZX Spectrum Contents of instructions"
+      title: "ZX Spectrum 说明书目录"
       url: "https://worldofspectrum.org/ZXBasicManual/"
-      info: "Instructions for an 8-bit computer of the last century"
+      info: "一台上世纪8位计算机的说明书"
     - type: id_resources
       title: "FontAwesome"
       url: "https://fontawesome.com"
-      info: "No more worrying about icons"
+      info: "再也不用为图标发愁辣～"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1).pdf"
+      info: "电子学自学指南（1）（pdf）"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
+      info: "电子学自学指南（2）（pdf）"
+    - type: id_resources
+      title: "OI WIKI"
+      url: "https://oi-wiki.org/"
+      info: "c++竞赛wiki，设计各种算法详解及STL讲解，再也不用去CSDN辣"
+    - type: id_resources
+      title: "Havok Physics"
+      url: "https://www.havok.com/"
+      info: "震荡波物理引擎，此外震荡波还有npc的AI和布料模拟，塞尔达botw使用了全部3个"
     
       
     # articles
