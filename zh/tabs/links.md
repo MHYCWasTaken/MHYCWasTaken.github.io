@@ -40,8 +40,7 @@ lng_pair: id_links
 page_data:
   main:
     header: "链接"
-    info: "MHYC自己收藏的一些有趣的网站，当作工具箱吧（ps.直接点击链接会在新标签页打开）
-    如果某链接失效或指向不正确，请发送标题为“Links werent working”的邮件至MHYC"
+    info: "MHYC自己收藏的一些有趣的网站"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
