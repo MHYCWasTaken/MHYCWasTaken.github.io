@@ -75,7 +75,7 @@ page_data:
       url: "https://www.lunarclient.com/"
       info: "Lunar is a Minecraft Java Client/Launcher for PVP and high FPS"
     - type: id_apps
-      title: "Labymod客户端"
+      title: "Labymod Client"
       url: "https://www.labymod.net/en/"
       info: "Labymod is also a Minecraft Java Client for PVP and high FPS"
     - type: id_apps
