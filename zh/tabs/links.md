@@ -123,14 +123,14 @@ page_data:
       title: "FontAwesome"
       url: "https://fontawesome.com"
       info: "再也不用为图标发愁辣～"
-    #- type: id_resources
-    #  title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1)"
-    #  url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1).pdf"
-    #  info: "电子学自学指南（1）（pdf）"
-    #- type: id_resources
-    #  title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
-    #  url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
-    #  info: "电子学自学指南（2）（pdf）"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1).pdf"
+      info: "电子学自学指南（1）（pdf）"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
+      info: "电子学自学指南（2）（pdf）"
     - type: id_resources
       title: "OI WIKI"
       url: "https://oi-wiki.org/"
