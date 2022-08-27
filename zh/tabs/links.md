@@ -39,27 +39,27 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links"
-    info: "Some of MHYC's website collection."
+    header: "链接"
+    info: "MHYC自己收藏的一些有趣的网站"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Useful Resources"
+    - title: "奇妙资源"
       type: id_resources
       color: "#AC3232"
-    - title: "Useful Tools"
+    - title: "奇妙工具"
       type: id_tools
       color: "#DF7126"
-    - title: "Useful Applications"
+    - title: "奇妙软件"
       type: id_apps
       color: "#FBF236"
-    - title: "Useful Articles"
+    - title: "好的文章"
       type: id_good_articles
       color: "#99E550"
-    - title: "Good Website Design"
+    - title: "奇妙的网页设计"
       type: id_website_design
       color: "#6ABE30"
-    - title: "Time Killer"
+    - title: "消磨时间"
       type: id_time_killer
       color: "#37946E"
 
