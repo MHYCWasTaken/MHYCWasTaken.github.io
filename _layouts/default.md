@@ -30,8 +30,6 @@ layout: util/compress
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
-
   </head>
 
   <body {{ default_dark }}>
