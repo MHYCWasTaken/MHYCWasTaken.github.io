@@ -100,6 +100,10 @@ page_data:
       title: "Interesting design of site"
       url: "https://embersword.com/"
       info: "I'm really sorry. My focus is on typesetting and fonts"
+    - type: id_website_design
+      title: "windows 11 on a browser"
+      url: "https://win11.blueedge.me/"
+      info: "dalao"
       
 
     # resources
@@ -119,6 +123,14 @@ page_data:
       title: "FontAwesome"
       url: "https://fontawesome.com"
       info: "No more worrying about icons"
+    - type: id_resources
+      title: "OI WIKI"
+      url: "https://oi-wiki.org/"
+      info: "c++ oi wiki"
+    - type: id_resources
+      title: "Havok Physics"
+      url: "https://www.havok.com/"
+      info: "Legend of zelda botw use it"
     
       
     # articles
@@ -126,6 +138,14 @@ page_data:
       url: "https://www.zhihu.com/question/20112194"
       title: "为什么计算机能够读懂0和1？(知乎)"
       info: "A computer composition starting with logic gates (easy to understand)(in Chinese)"
+    - type: id_good_articles
+      url: "http://allenchou.net/game-physics-series/"
+      title: "Game physics | 周明伦"
+      info: "Game Physics Series"
+    - type: id_good_articles
+      url: "https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop"
+      title: "Raspberry Pi guide: Host Minecraft Server on Ubuntu Desktop"
+      info: "simple minecraft server guide"
       
 
     # tool
@@ -152,6 +172,26 @@ page_data:
       title: "Alternative To"
       url: "https://alternativeto.net/"
       info: "When you find that the required software is not available on linux/mac, come here"
+    - type: id_tools
+      title: "jsfxr"
+      url: "https://sfxr.me/"
+      info: "8bit sfx generate, 4 3 (for free)"
+    - type: id_tools
+      title: "Jitsi Meetings"
+      url: "https://meet.jit.si/"
+      info: "Video meeting without accounts"
+    - type: id_tools
+      title: "BigBlueButton"
+      url: "https://bigbluebutton.org/"
+      info: "Video meeting for teachers"
+    - type: id_tools
+      title: "Minecraft Server Host - RAMShard"
+      url: "https://ramshard.com/hosting/minecraft?referrer=ga"
+      info: "~"
+    - type: id_tools
+      title: "ScalaCube - Game Server Hosting"
+      url: "https://scalacube.com/"
+      info: "~"
       
       
     # time killer
@@ -179,4 +219,32 @@ page_data:
       title: "Chess Wars"
       url: "https://dt-mark.itch.io/chess-wars"
       info: "RPG And Items crack with Chess (free)"
+    - type: id_time_killer
+      title: "ULTRAKILL"
+      url: "https://hakita.itch.io/ultrakill-prelude"
+      info: "good fps game but a bit scary"
+    - type: id_time_killer
+      title: "RE:RUN"
+      url: "https://hakita.itch.io/ultrakill-prelude"
+      info: "RUN 'N SWORD"
+    - type: id_time_killer
+      title: "Checkmate"
+      url: "https://charlie-morel.itch.io/checkmate"
+      info: "Chess+tps"
+    - type: id_time_killer
+      title: "eldritch-eclipse"
+      url: "https://crowbarska.itch.io/eldritch-eclipse"
+      info: "doom-like fps"
+    - type: id_time_killer
+      title: "Mindustry"
+      url: "https://anuke.itch.io/mindustry"
+      info: "i dont know how to description this game, but it is good that you're gonna like it"
+    - type: id_time_killer
+      title: "Mobs inc"
+      url: "https://overboy.itch.io/mobs-inc"
+      info: "web little game, interesting"
+    - type: id_time_killer
+      title: "Bruno-Simon"
+      url: "https://bruno-simon.com/"
+      info: "web driving game"
 ---

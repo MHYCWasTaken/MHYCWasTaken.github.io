@@ -104,26 +104,6 @@ page_data:
       title: "非常牛逼的网页版win11"
       url: "https://win11.blueedge.me/"
       info: "真的TNND牛逼"
-      
-
-    # website design
-    - type: id_website_design
-      title: "奇妙鼠标指针"
-      url: "https://www.cnblogs.com/zhaoqingqing/p/11546010.html"
-      info: "非常抱歉我的关注点在鼠标指针上面"
-    - type: id_website_design
-      title: "奇妙鼠标指针(二度)"
-      url: "https://www.cnblogs.com/Potrem/p/51_6.html"
-      info: "真的非常抱歉我的关注点在鼠标指针上面"
-    - type: id_website_design
-      title: "很好看的页面排版和字体"
-      url: "https://embersword.com/"
-      info: "真的非常抱歉我的关注点在排版和字体上面"
-    - type: id_website_design
-      title: "非常牛逼的网页版win11"
-      url: "https://win11.blueedge.me/"
-      info: "真的TNND牛逼"
-  
 
     # resources
     - type: id_resources
@@ -153,7 +133,7 @@ page_data:
     - type: id_resources
       title: "OI WIKI"
       url: "https://oi-wiki.org/"
-      info: "c++竞赛wiki，设计各种算法详解及STL讲解，再也不用去CSDN辣"
+      info: "c++竞赛wiki，涉及各种算法详解及STL讲解，再也不用去CSDN辣"
     - type: id_resources
       title: "Havok Physics"
       url: "https://www.havok.com/"
