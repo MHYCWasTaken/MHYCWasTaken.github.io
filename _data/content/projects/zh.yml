@@ -31,14 +31,14 @@ page_data:
       img_title: "MHYChat"
       date: "2021-02-17"
       post: |
-        MHYC本人饱受“小而美”的微信困扰，搭建全新的聊天平台势在必得
+        MHYC本人饱受“小而美”的微信困扰
         
-        MHYC隆重介绍——
+        介绍:
         
         # MHYChat
         {:data-align="center"}
         
-        Features功能：
+        功能：
         - 聊天室
         - 私聊
         - 显示对方正在输入
@@ -56,10 +56,65 @@ page_data:
         - 找回密码
         - 客户端
         
-        .欲体验，请前往[chat.mhyc.tech](http://chat.mhyc.tech/)
+        .欲体验，请前往[mhychat.eu.org](http://mhychat.eu.org)
         
         Based on Rocket.Chat
     
+    - type: id_software
+      project_name: "ShareEuOrg"
+      project_excerpt: "快速的免费共享域名"
+      img: ":seo.png"
+      img_title: "ShareEuOrg"
+      date: "2021-08-30"
+      post: |
+        每个人都值得拥有自己的域名，
+
+        EuOrg时一个顶级域名，他是免费的，只不过审核过慢
+
+        ShareEuOrg为人们提供了一个快速的临时域名解决方案
+
+        --⨻--
+        我们仍在施工
+
+    - type: id_software
+      project_name: "PeacefulCommunity"
+      project_excerpt: "干净又卫生的互联网"
+      img: ":pc.png"
+      img_title: "文明互联网"
+      date: "2021-08-29"
+      post: |
+        你可曾在网上遇到过这样的情况：  
+          - 感觉语言不友善，但不知如何改变
+          - 好意被误解
+          - 好心办了坏事
+          - 不希望起争执
+
+        这就是为什么PeacefulCommunity诞生
+
+        我们有许多条款可以证明你没有恶意
+
+        可以任何处使用
+
+        --⨻--
+        我们仍在施工
+
+    - type: id_software
+      project_name: "Better OS Tutorial CN"
+      project_excerpt: "从零开始编写一个操作系统——注解版"
+      img: ":os.png"
+      img_title: "BOTS"
+      date: "2021-0-9-09"
+      post: |
+        此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+
+        - 这是一本代码编写手册，尤其适合那些喜欢计算机底层技术的人。例如，一直好奇操作系统是如何工作的程序员，他们没有时间和意志力去从头到尾地阅读 Linux 内核代码。
+        - 不需要很深的理论基础。是的，这是一个很大的特点。 Google 就是你最好的理论导师。一旦你大学毕业了，讲述太多的理论会让一些东西看起来比他们实际更复杂。
+        - 这些课程真的很简短，大约 5~15 分钟就可以完成，相信我也相信你自己，你一定能够完成它们！
+
+        目前，已经完成了1至6课的注解，涉及到了内存，栈，寄存器，CPU指令集
+
+        [Better OS Tutorial CN](https://mhyc.eu.org/better-os-tutorial-cn)
+
     - type: id_test
       project_name: "Example Project"
       project_excerpt: "Mahatma Gandhi "
