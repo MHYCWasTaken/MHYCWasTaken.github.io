@@ -1,0 +1,122 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_gitalk
+title: "【中】Gitalk完全配置指南"
+
+# post specific
+# if not specified, .name will be used from _data/owner.yml
+author: MHYC133
+# multiple category is not supported
+category: guide
+# multiple tag entries are possible
+tags: [software]
+# thumbnail image for post
+img: ":gitalk.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2022-09-17 11:45:14 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-03-03 10:04:19 +0900
+# check the meta_common_description in _data/lang/[language].yml
+#meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+
+<!-- outline-start -->
+
+Gitalk的安装，配置，项目页面+自定义域名的解决方案
+
+<!-- outline-end -->
+
+## 环境
+
+Jekyll + GithubPages
+
+主题：Just the docs
+
+是项目页面
+
+使用自定义域名mhyc.eu.org
+
+访问地址mhyc.eu.org/better-os-tutorial-cn
+
+文章的地址mhyc.eu.org/better-os-tutorial-cn/docs/some-category/some-post/
+
+环境略不同没关系，会讲到其他环境的配置
+
+## 安装Gitalk
+
+一般来说Jekyll的主题都会有个 `_layouts` 目录，  
+里面有一些html文件，你的post上面区域使用的 `_layout` 与此对应
+
+你可以选择新建一种layout或者使用现有的layout  
+
+### 新建layout
+
+在这个目录中新建一个文件，我的叫 `postwithcomment.html`  
+
+如果已经有可用的layout可以直接引用  
+如我的default是已经可用的layout（文章可使用的layout），就在新建的html中写上:  
+```markdown
+---
+layout: default
+---
+
+{{ content }}
+
+some code...
+```  
+之后跟需要添加的代码
+
+### 使用现有layout
+
+找到你的post所使用的layout并直接在最下方添加代码
+
+（需要注意不要加到html的大框外面，如）
+
+```html
+<html>
+    <!--some code-->
+    <body>
+        <!--some code-->
+        <!--往这里加-->
+    </body>
+    <!--或者这里-->
+</html>
+<!--别往这里加-->
+```
+
+（如果大框是body，就往body里面加）
+
+接下来安装：
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+```
+
+加到让你加代码的地方
+
+。。。
+
+没了，就装完了，很方便吧：）
+
+## 创建并渲染Gitalk
+
+TODO
