@@ -78,8 +78,6 @@ Jekyll + GithubPages
 layout: default
 ---
 
-{{ content }}
-
 加代码
 ```  
 之后跟需要添加的代码
@@ -152,7 +150,7 @@ layout: default
     </script>
 ```
 
-看起来很复杂？一点一点来吧
+看起来还有很多要填？一点一点来吧
 
 ### TODO no.1 & TODO no.2
 
@@ -170,5 +168,19 @@ layout: default
     `https://mhyc.eu.org/better-os-tutorial-cn`
 
 保存
+
+此时可以看见Client id，这就是TODO no.1
+
+点击Generrate a new client secret，这就是TODO no.2
+
+### TODO no.3
+
+gitalk的评论是以issue的形式储存的，所以需要一个仓库来存放issue
+
+你可以创建新的仓库或者随便找一个没用的
+
+仓库名字填进去，要那个没有大写只有小写和减号那个名字
+
+### TODO no.4 & TODO no.5
 
 TODO
