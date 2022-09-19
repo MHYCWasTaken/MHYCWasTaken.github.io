@@ -73,14 +73,14 @@ Jekyll + GithubPages
 
 如果已经有可用的layout可以直接引用  
 如我的default是已经可用的layout（文章可使用的layout），就在新建的html中写上:  
-```markdown
+```
 ---
 layout: default
 ---
 
 {{ content }}
 
-some code...
+加代码
 ```  
 之后跟需要添加的代码
 
@@ -118,5 +118,57 @@ some code...
 没了，就装完了，很方便吧：）
 
 ## 创建并渲染Gitalk
+
+在需要渲染gitalk的地方放置一个div，如我在页面最后
+
+```html
+<div id="gitalk-container"></div>
+```
+
+然后在文件最后加上一下一段代码
+
+```html
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: 'TODO no.1',
+        clientSecret: 'TODO no.2',
+        repo: `TODO no.3`,
+        owner: 'TODO no.4',
+        admin: ['TODO no.5'],
+        id: TODO no.6
+        title: TODO no.7
+        language:'zh-CN',
+        distractionFreeMode: TODO no.8,
+        createIssueManually: true,
+        proxy: "TODO no.9",
+        flipMoveOptions:{
+            staggerDelayBy: 150,
+            appearAnimation: 'elevator',
+            enterAnimation: 'elevator',
+            leaveAnimation: 'elevator',
+        }
+    });
+    gitalk.render('gitalk-container');
+    </script>
+```
+
+看起来很复杂？一点一点来吧
+
+### TODO no.1 & TODO no.2
+
+打开github并登录，进入 [这个页面](https://github.com/settings/developers)
+
+- Application name : 随便填
+- Homepage url : 需要使用gitalk的网站主页，如我的是项目页面
+    `https://MHYCWasTaken.github.io/better-os-tutorial-cn/`
+    注意，无论是否使用自定义域名，此处均使用xxx.github.io形式
+    如果没有自定义域名的话应该是http而不是https
+- Description : 描述
+- Authorization callback url : 回调地址
+    使用自定义域名的用自定义域名，没有域名的照旧
+    我的：
+    `https://mhyc.eu.org/better-os-tutorial-cn`
+
+保存
 
 TODO
