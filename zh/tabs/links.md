@@ -157,6 +157,14 @@ page_data:
       url: "https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop"
       title: "Raspberry Pi 教程：在 Ubuntu 桌面上托管 Minecraft 服务器 Ubuntu"
       info: "简单直接的mc开服教程，其他地方大同小异"
+    - type: id_good_articles
+      url: "https://prohibitorum.top/7cc2c97a15b4.html#2022-8-26"
+      title: "解决 Gitalk 无法获取 Github Token 问题 | 恋の歌"
+      info: ""
+    - type: id_good_articles
+      url: "https://zhuanlan.zhihu.com/p/341543249"
+      title: "五分钟搭建博客评论组件-gitalk - 知乎"
+      info: ""
       
 
     # tool
@@ -203,6 +211,14 @@ page_data:
       title: "ScalaCube - Game Server Hosting"
       url: "https://scalacube.com/"
       info: "我的世界服务器托管"
+    - type: id_tools
+      title: "免費網站 | 專業網頁製作 | Wix.com"
+      url: "https://zh.wix.com/"
+      info: ""
+    - type: id_tools
+      title: "Vercel"
+      url: "https://vercel.com/"
+      info: ""
   
   
     # time killer
