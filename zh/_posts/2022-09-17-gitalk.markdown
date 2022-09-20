@@ -133,8 +133,8 @@ layout: default
         repo: `TODO no.3`,
         owner: 'TODO no.4',
         admin: ['TODO no.5'],
-        id: TODO no.6
-        title: TODO no.7
+        id: TODO no.6,
+        title: TODO no.7,
         language:'zh-CN',
         distractionFreeMode: TODO no.8,
         createIssueManually: true,
@@ -177,10 +177,88 @@ layout: default
 
 gitalk的评论是以issue的形式储存的，所以需要一个仓库来存放issue
 
-你可以创建新的仓库或者随便找一个没用的
+你可以创建新的仓库或者随便找一个
+
+也可以直接用放页面的仓库，一会能给issue分类
 
 仓库名字填进去，要那个没有大写只有小写和减号那个名字
 
 ### TODO no.4 & TODO no.5
 
-TODO
+4填仓库所有者，5填评论区管理者，5可以填多个人
+
+### TODO no.6
+
+这里有坑，id就是gitalk要检索的issue的tag，也就是分类
+
+~~如果这里填入固定的值可以做到所以页面共用评论区~~
+
+但是id硬性要求长度不能大于50
+
+（location.pathname是gitalk显示的页面的网址，但是使用十六进制url）
+
+所以我们想个办法
+
+我们可以用MD5加密一下，这样长度就固定了
+
+好主意，试一试吧
+
+首先盗取一个别人写好的MD5（加在安装gitalk那里）
+
+```html
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+```
+
+TODO no.6填写一个 `md5(location.pathname)`
+
+得行，但是想一想，watch评论仓库代表有人评论时你会收到邮件提醒，不过MD5加密过的tag你可不一定看得懂  
+就算看懂了也得费老大劲才能看懂
+
+我们需要更好的办法
+
+我们先使用 `decodeURIComponent()` 将16进制url转换为普通的字符串
+
+然后用一个 `alert(decodeURIComponent(location.pathname))` 输出一下看看长什么样
+
+我这边看见提示了 `/better-os-tutorial-cn/docs/some_category/some_article`
+
+明显长于50字符，于是我们使用substring截取一下从/docs/到最后的
+
+数一下，发现到/docs/的后面的斜杠有28个字符
+
+于是我们填入 `decodeURIComponent(location.pathname.substring(28))` 到TODO no.6
+
+很明显如果你的文章名字太长，这个方法依旧会失效，可以学一点js做几个特判，我没这个需求我就不写了
+
+### TODO no.7
+
+将来的issue名字
+
+我填了 `"Comments of "+decodeURIComponent(location.pathname.substring(28))`
+
+也可随意
+
+### TODO no.8
+
+输入是将其他内容淡化的效果，可以设为true试试效果
+
+### TODO no.9
+
+如果不设置这个，将会出现无法登录评论的现象，是因为请求的服务器被ban掉了
+
+查看 [这篇文章](https://prohibitorum.top/7cc2c97a15b4.html)
+
+非常详细，并且无坑，非常良心
+
+如果你使用自定义域名，则必须自己搭建，他给出的proxy不可用
+
+### Other
+
+FlipMoveOptions是一个特效，发布评论时播放的，看了一圈就这个elevator能入眼
+
+## 后
+
+每次发布新文章，都需要仓科主任来到文章下面，登录并点击创建初始化Issue才可正常评论
+
+[如需对照参考id和title的作用，看我的gitalk仓库](https://github.com/MHYCWasTaken/better-os-tutorial-cn/issues)
+
