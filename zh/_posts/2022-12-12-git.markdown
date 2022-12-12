@@ -1,5 +1,5 @@
 ---
-lng_pair: id_build_blog_with_github_pages
+lng_pair: id_git
 title: "【中】fatal: Could not read from remote repository.  Please make sure you have the correct access rights and the repository exists."
 date: 2022-12-12 11:45:14 +0900
 category: guide
