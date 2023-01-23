@@ -58,9 +58,9 @@ page_data:
         - 不需要很深的理论基础。这是一个很大的特点。 百度就是你最好的理论导师。讲述太多的理论会让一些东西看起来比他们实际更复杂。
         - 这些课程真的很简短，大约 5~15 分钟就可以完成，相信我也相信你自己，你一定能够完成它们！
 
-        目前，已经完成了1至17课的注解，涉及到了内存，栈，寄存器，CPU指令集
+        目前，已经完成了1至17课的注解，涉及到了内存，栈，寄存器，CPU指令集，键盘输入，32位保护模式
 
-        2023：目前不进行更新，主要精力在人工智能的诞生上
+        2023：目前不更新了，主要精力在人工智能的诞生上
 
         这个链接不需要加速器
         [Better OS Tutorial CN](https://mhyc.eu.org/better-os-tutorial-cn)
@@ -107,3 +107,23 @@ page_data:
 
         链接（需要加速器）：[https://github.com/MHYCWasTaken/libJETC](https://github.com/MHYCWasTaken/libJETC)
         东西都在src目录里面
+    
+    - type: id_software
+      project_name: "Wonderful Grade Nine Eletricity Simulator"
+      project_excerpt: "初中物理电学模拟器"
+      img: ""
+      img_title: ""
+      date: "2022-10-10"
+      post: |
+        
+        这个项目是学完电学且刚好看见流算法时兴起写的
+
+        将电路中的接线柱封装为一类，元器件内封装接线柱
+        
+        创建超级源点和超级汇点，用带有启发式的广度优先搜索遍历
+
+        没有GUI界面，用的命令行
+
+        比较可惜的是在倒腾硬盘的时候连同一些其他小项目丢失了
+
+        小项目就不写上来了，这个完成度比较高，写上来吧
