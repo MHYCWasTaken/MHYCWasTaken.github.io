@@ -1,6 +1,6 @@
 ---
 lng_pair: id_gradle
-title: "【中】ERROR: JAVA_HOME is set to an invalid directory: C:\Program Files\Java\jdk17.0.4.1\bin"
+title: "【中】ERROR: JAVA_HOME is set to an invalid directory: C:\\Program Files\\Java\\jdk17.0.4.1\\bin"
 date: 2022-12-12 11:45:14 +0900
 category: guide
 tags: [java]
