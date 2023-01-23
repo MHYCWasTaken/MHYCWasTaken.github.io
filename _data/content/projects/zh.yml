@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "项目"
-    info: "MHYC的项目"
+    info: "大部分链接是Github链接，这网址在国内会有DNS污染，稳定访问请安装Watt toolkit进行加速（https://steampp.net/）"
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: "https://bing.img.run/1920x1080.php"
@@ -25,240 +25,85 @@ page_data:
   list:
     # software
     - type: id_software
-      project_name: "MHYChat"
-      project_excerpt: "在线聊天平台"
-      img: ":mhychat.png"
-      img_title: "MHYChat"
-      date: "2021-02-17"
+      project_name: "Birth of an AI"
+      project_excerpt: "一个人工智能的诞生"
+      img: ":birth_of_an_ai.png"
+      img_title: "一个人工智能的诞生"
+      date: "2023-01-23"
       post: |
-        MHYC本人饱受“小而美”的微信困扰
+        从最简单的二元分类，到坐标系，神经网络，矩阵变换，手算梯度下降
+
+        机器学习正给世界带来重大影响。  
+        小区门口的人脸识别开锁、手机里的信息流推荐、路上的自动驾驶，这一切技术的背后都是机器学习。  
+        这技术似乎掌握在少部分精英手中。  
         
-        介绍:
-        
-        # MHYChat
-        {:data-align="center"}
-        
-        功能：
-        - 聊天室
-        - 私聊
-        - 显示对方正在输入
-        - 显示对方状态
-        - KaTeX语法，包括加粗，下划线，删除线，斜体，数学公式
-        - 表情包
-        - 关注消息
-        - 讨论串
-        - 频道
-        - 上传文件，图片，视频
-        - 在线播放视频
-        
-        Todo还没有实现的：
-        - 邮箱验证，绑定
-        - 找回密码
-        - 客户端
-        
-        .欲体验，请前往[mhychat.eu.org](http://mhychat.eu.org)
-        
-        Based on Rocket.Chat
-    
-    - type: id_software
-      project_name: "ShareEuOrg"
-      project_excerpt: "快速的免费共享域名"
-      img: ":seo.png"
-      img_title: "ShareEuOrg"
-      date: "2021-08-30"
-      post: |
-        每个人都值得拥有自己的域名，
+        拆开人工智能的黑箱，丢开别人提供的算法和函数  
+        从鳄鱼和蛇开始，理解人工智能
 
-        EuOrg时一个顶级域名，他是免费的，只不过审核过慢
+        此项目是基本操作Playclass：一个人工智能的诞生的复刻项目  
+        不会按照原版进行，而是加入了自己的理解和笔记
 
-        ShareEuOrg为人们提供了一个快速的临时域名解决方案
-
-        --⨻--
-        我们仍在施工
-
-    - type: id_software
-      project_name: "PeacefulCommunity"
-      project_excerpt: "干净又卫生的互联网"
-      img: ":pc.png"
-      img_title: "文明互联网"
-      date: "2021-08-29"
-      post: |
-        你可曾在网上遇到过这样的情况：  
-          - 感觉语言不友善，但不知如何改变
-          - 好意被误解
-          - 好心办了坏事
-          - 不希望起争执
-
-        这就是为什么PeacefulCommunity诞生
-
-        我们有许多条款可以证明你没有恶意
-
-        可以任何处使用
-
-        --⨻--
-        我们仍在施工
+        项目链接：[https://github.com/MHYCWasTaken/Birth-of-an-AI](https://github.com/MHYCWasTaken/Birth-of-an-AI)
 
     - type: id_software
       project_name: "Better OS Tutorial CN"
       project_excerpt: "从零开始编写一个操作系统——注解版"
       img: ":os.png"
-      img_title: "BOTS"
-      date: "2021-0-9-09"
+      img_title: "bots"
+      date: "2021-09-09"
       post: |
-        此仓库是 https://github.com/ruiers/os-tutorial-cn/tree/chinese/ 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
+        此仓库是 [os-tutorial](https://github.com/ruiers/os-tutorial-cn/tree/chinese/) 的克隆，在个人学习过程中添加一些笔记，更加便于学习理解
 
         - 这是一本代码编写手册，尤其适合那些喜欢计算机底层技术的人。例如，一直好奇操作系统是如何工作的程序员，他们没有时间和意志力去从头到尾地阅读 Linux 内核代码。
-        - 不需要很深的理论基础。是的，这是一个很大的特点。 Google 就是你最好的理论导师。一旦你大学毕业了，讲述太多的理论会让一些东西看起来比他们实际更复杂。
+        - 不需要很深的理论基础。这是一个很大的特点。 百度就是你最好的理论导师。讲述太多的理论会让一些东西看起来比他们实际更复杂。
         - 这些课程真的很简短，大约 5~15 分钟就可以完成，相信我也相信你自己，你一定能够完成它们！
 
-        目前，已经完成了1至6课的注解，涉及到了内存，栈，寄存器，CPU指令集
+        目前，已经完成了1至17课的注解，涉及到了内存，栈，寄存器，CPU指令集
 
+        2023：目前不进行更新，主要精力在人工智能的诞生上
+
+        这个链接不需要加速器
         [Better OS Tutorial CN](https://mhyc.eu.org/better-os-tutorial-cn)
 
-    - type: id_test
-      project_name: "Example Project"
-      project_excerpt: "Mahatma Gandhi "
-      img: ":project2_thumb.jpg"
-      img_title: "img title6"
-      date: "2021-12-20"
+    - type: id_software
+      project_name: "Calculator"
+      project_excerpt: "libGDX简单实现"
+      img: ""
+      img_title: "计算器"
+      date: "2023-01-22"
       post: |
-        Be the change that you wish to see in the world.
-        # Examples
 
-        This is an example page to display markdown related styles for Mr. Green Jekyll Theme.
+        [https://www.zhihu.com/question/579210599/answer/2849676606](https://www.zhihu.com/question/579210599/answer/2849676606)
+        
+        只不过是看见有人问，就简单写了一个
 
-        ### Headings (centered)
-        {:data-align="center"}
+    - type: id_software
+      project_name: "libJETC"
+      project_excerpt: "Java的奇妙工具库"
+      img: ""
+      img_title: "LibJETC"
+      date: "2023-01-03"
+      post: |
+        
+        这是一个Java的工具库，包含各种各样的实用东西
 
-        # Heading 1
+        包含：
+        - 伽罗瓦域
+        - 二维几何计算
+        - 解数独（快速算法）
+        - 快速平方根
+        - 快速幂
+        - 最大公约数
+        - 数学表达式
+        - 支持小括号的字符串计算
+        - 解一元一次方程
+        - 解二元一次方程
+        - 仍在更新
+        
+        此外，这个库还有着我写过最标准的Java doc，严丝合缝的封装（大概）  
+        总之很厉害就对了
 
-        ## Heading 2
+        注：MIT协议，免费提供所有人使用，可以用于商业用途，再分发不需署名
 
-        ### Heading 3
-
-        #### Heading 4
-
-        ##### Heading 5
-
-        ###### Heading 6
-
-        ***
-
-        ### Paragraphs
-
-        #### Paragraph
-
-        **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        #### Texts
-
-        commond text `Hello world`
-
-        Bold text **Hello world**
-
-        Italic text _Hello world_
-
-        kbd text <kbd>Hello world</kbd>
-
-        #### Blockcommon
-
-        > **William Shakespeare**, Let me not to the marriage of true minds
-        Admit impediments. Love is not love
-        Which alters when it alteration finds,
-        Or bends with the remover to remove.
-        O no, it is an ever-fixed mark
-        That looks on tempests and is never shaken;
-        It is the star to every wand'ring barque,
-        Whose worth's unknown, although his height be taken.
-        Love's not Time's fool, though rosy lips and cheeks
-        Within his bending sickle's compass come;
-        Love alters not with his brief hours and weeks,
-        But bears it out even to the edge of doom.
-        If this be error and upon me proved,
-        I never writ, nor no man ever loved.
-
-        ### Link
-
-        This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
-
-        ### Picture
-
-        ![such a lovely place](:projects-heading.jpg)
-
-        ### Picture (centered)
-
-        ![such a lovely place](:project1_thumb.jpg){:data-align="center"}
-
-        ### Lists
-
-        - Apple
-        - Banana
-        - Orange
-
-        1. Fruits
-            1. Apples
-                - Granny Smith
-                - Mutsu
-            1. Bananas
-                - Cavendish
-                - Red
-        1. Vegetables
-
-        ***
-
-        ### Tables
-
-        #### Small Table (centered)
-
-        | Fruits(not aligned) | Alignment (centered) | num (right align) |
-        | ------------------- | :------------------: | ----------------: |
-        | Apple               |       centered       |              9999 |
-        | Banana              |  centered long text  |               999 |
-        | Orange              |       centered       |                99 |
-        | Lemon               |       centered       |                 9 |
-        {:data-align="center"}
-
-        #### Wide Table (centered)
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
-        | Banana | 111              |               111 | 222  | 333  | 444  |
-        | Orange | 11               |                11 | 22   | 33   | 44   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    |
-        {:data-align="center"}
-
-        #### Wider Table
-
-        scroll enabled when page is narrow
-
-        | Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
-        | ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
-        | Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
-        | Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
-        | Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
-        | Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
-
-        ### Code
-
-        #### common
-
-        ```python
-        for i in range(5, 10):
-          print(i)
-        ```
+        链接（需要加速器）：[https://github.com/MHYCWasTaken/libJETC](https://github.com/MHYCWasTaken/libJETC)
+        东西都在src目录里面
