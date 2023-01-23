@@ -44,6 +44,9 @@ page_data:
 
     # To change order of the Categories, simply change order. (you don't need to change list order.)
     category:
+        - title: "回形针Paperclip"
+            type: id_paperclip
+            color: "#14367b"
         - title: "奇妙资源"
             type: id_resources
             color: "#AC3232"
@@ -373,4 +376,15 @@ page_data:
             title: "nazo game"
             url: "https://nazo.one-story.cn/"
             info: "网络迷踪（大雾"
+
+        # paperclip
+        - type: id_paperclip
+            title: "paperclip icu"
+            url: "https://ipaperclip.icu/"
+        - type: id_paperclip
+            title: "wandering paperclip"
+            url: "https://wandering-paperclip.glitch.me/"
+        - type: id_paperclip
+            title: "ipaperclip"
+            url: "http://ipaperclip.live/"
 ---
