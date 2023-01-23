@@ -36,9 +36,7 @@ img: ":about.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-Mhyc, a student very interested in science and technology, know both about software and hardware, looking forward to be a full stack engineer and would like to cut videos and upload it to Bilibili.
+MHYC，一个学习还凑和但是对科技十分感兴趣的学生党，软件硬件兼修，励志成为全栈工程师并且向b站投稿  
+（虽然电路图看不懂算法一塌糊涂而且剪辑技术烂到自己都不想看）
 
-(although I can't understand the circuit diagram, the algorithm is in a mess and the video edited by me is so bad that I don't want to watch it again)
-
-
-This website is a personal blog of mhyc133 based on Jekyll, MrGreen Theme and SakuraFrp, bing wallpaper suppored by [https://bing.img.run](https://bing.img.run)
+这个网站是MHYC133的个人博客，基于Jekyll，MrGreen Theme和SakuraFRP，bing壁纸api由[https://bing.img.run](https://bing.img.run)提供

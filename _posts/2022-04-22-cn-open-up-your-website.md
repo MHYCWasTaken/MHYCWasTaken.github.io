@@ -1,275 +1,271 @@
 ---
 lng_pair: id_Open_Up_Your_Website
-title: 【En】Open up website
+title: 【中】网站开放（上线）
 date: 2022-04-22 11:45:14 +0900
 category: projects
 tags: [website, software]
 img: ":natfrp.png"
 ---
 
-# Warning! This page is auto translated by [GoogleTranslate](https://translate.google.cn)
-
-#### OK is back
+#### OK回来了
 
 <!-- outline-start -->
 
-Going through a long period of research, overcoming obstacles, and haggling with parents
+经历漫长的研究，攻克难关，和父母讨价还价
 
-The website is finally online
+网站总算是上线了
 
-Today, let’s talk about how this website was launched and what unexpected twists and turns it has experienced.
+今天来讲一讲这个网站是如何上线以及经历了一些怎么样意想不到的波折
 
-If you want to learn website online, this article can help you
+如果你想学习网站上线，这篇文章可以帮到你
 
 <!-- outline-end -->
 
-(The previous section describes how to access your website on the external network, and the end of the article explains how to configure the domain name and the DNS service of the domain name.)
+（前面介绍如何在外网访问你的网站，文末统一解释如何配置域名及域名的DNS服务）
 
-First of all, if we want to launch a website, we need to understand
+首先，想要上线一个网站，我们要了解
 
-# The principle of visiting the website
+## 访问网站的原理
 
-*Automatically fill in cool music and flashing titles*
+*自动脑补炫酷的音乐和闪烁的标题*
 
-You know, a website is a file on the server (static pages only), through a complex path to find the browser that accesses the website and render the screen.
+要知道，网站是架在服务器上的文件（仅限静态页面），通过复杂的通路找到访问网站的浏览器并渲染画面。
 
-Then, if the website on the LAN cannot be accessed, of course, the browser cannot find the server.
+那么，架在局域网的网站无法被访问当然就是浏览器找不到服务器咯
 
-So we have to build a pathway :)
+所以我们要搭建一条通路：）
 
-First, let's take a look:
+首先，来看看：
 
-## The easiest one
+### 最简单的一种
 
-![Pathway - the simplest one](:2022-04-22-02.png)
+![通路-最简单的一种](:2022-04-22-02.png)
 
-In this picture, the user visits ````www.baidu.com```, finds the server with ipv4 address ```220.181.38.148``` through some complex network communication methods, obtains data (page) and renders it .
+在这个图片中，用户访问 ```www.baidu.com``` ，通过一些复杂的网络通信手段找到了ipv4地址为 ```220.181.38.148``` 的服务器，获取数据（页面）并渲染。
 
-If it is more precise (I don't know the virtual operator of the domain name baidu.com, assuming it is Aliyun)
+如果再精细一点的话（此处我不知道域名baidu.com的虚拟运营商，假设是阿里云）
 
-After visiting ``baidu.com```, the user finds Alibaba Cloud's DNS server, and through the DNS server learns that the ipv4 address of the Baidu server is ```220.181.38.148```, and then goes to the server to obtain data
+用户访问 ```baidu.com``` 后找到了阿里云的DNS服务器，通过DNS服务器得知百度服务器ipv4地址为 ```220.181.38.148``` 之后前往服务器获取数据
 
-If your server is a cloud server, the path is the same, so congratulations, your problem has been solved, there will be no problem in following the service provider's documentation or something (this method needs to record the domain name, at the service provider)
+如果你的服务器是云服务器，通路也是这样的，所以恭喜你，你的问题已经解决了，按照服务商的文档或者什么的行事不会有问题（此方法需要备案域名，在服务商那里）
 
-Sadly, my situation is not so simple, so let's continue:
+很可惜，我的情况并没有这么简单，所以我们继续：
 
-## Not a cloud server
+### 不是云服务器
 
-This means your server is in your own home or somewhere else (crap)
+这说明你的服务器在自己家里或者什么别的地方（废话）
 
-Then, your server may not have a suitable network environment
+那么，你的服务器可能没有适合的网络环境
 
-Don't worry, we make our own without the environment :)
+别急，没有环境我们自己造：）
 
-### public network ip
+#### 公网ip
 
-Please check whether your home is a public network ip
+请自行检查自己家里是否是公网ip
 
-If yes, then congratulations, your situation is relatively simple
+如果是，那么恭喜你，你的情况也比较简单
 
-If not, please skip to apply for a non-public network ip, and then reading may make you busy
+如果不是，请跳跃至申请非公网ip，接着读可能会让你白忙活
 
-Actually, you just need to configure the domain name in the same way as the cloud server
+实际上，你只是需要以和云服务器相同的方式配置域名
 
-point the domain name to the ip address
+将域名指向ip地址
 
-But obviously, the ip address is not set in stone
+但是很明显，ip地址不是一成不变的
 
-So we need to use:
+所以我们需要使用：__DDNS__
 
-__DDNS__
+DNS服务器是一直开启的，ip地址不会经常变化
 
-The DNS server is always on, and the ip address does not change frequently
+但你的服务器可就不一定了
 
-But your server may not be
+所以我们可以在DNS前面加上动态“D”，就成为了“动态域名解析”
 
-So we can add dynamic "D" in front of DNS, it becomes "dynamic domain name resolution"
+具体如何配置？
 
-How to configure it?
+由于我没有除tplink以外的可用路由器，所以我就以tplink（云路由界面）进行演示，应该都大同小异，如果实在不一样，可以尝试联系路由器官网的客服之类的
 
-Since I don't have an available router other than tplink, I will use tplink (cloud routing interface) to demonstrate, which should be similar. If it is really different, you can try to contact the customer service of the router's official website.
+首先，登陆路由器管理界面（tplogin.cn或192.168.1.1之类的）
 
-First, log in to the router management interface (tplogin.cn or 192.168.1.1 etc.)
+密码应该在路由器背面
 
-The password should be on the back of the router
+接着，点击下方的应用管理
 
-Then, click on the application management below
+点击DDNS下面的“进入”
 
-Click "Enter" under DDNS
+![点击](:2022-04-22-01.png)
 
-![Click](:2022-04-22-01.png)
+此处有两个选项：tplink路由器提供DDNS和花生壳提供DDNS
 
-There are two options here: tplink router provides DDNS and peanut shell provides DDNS
+![tplink提供的DDNS](:2022-04-22-03.png)
 
-![DDNS provided by tplink](:2022-04-22-03.png)
+请注意，一个路由器账号只能有一个而且 __不能删除！！__ 请注意！注册以前请慎重
 
-Please note that a router account can only have one and __ cannot be deleted! ! __ caution! Please be careful before registering
+也可以使用花生壳提供的DDNS，只不过DDNS的管理界面会在花生壳官网
 
-You can also use the DDNS provided by Peanut Shell, but the management interface of DDNS will be on the official website of Peanut Shell
+DDNS只能让外网访问到你的路由器，并不能在外网访问你的服务器
 
-DDNS can only allow the external network to access your router, and cannot access your server from the external network
+所以请配置虚拟主机
 
-So please configure the virtual host
+![虚拟主机配置](:2022-04-22-04.png)
 
-![Virtual host configuration](:2022-04-22-04.png)
+外部端口即为访问时的端口
 
-The external port is the port when accessing
+内部端口为内网服务端口
 
-The internal port is the intranet service port
+ip地址为内网服务器ip
 
-The ip address is the intranet server ip
+协议类型请选择TCP
 
-Please select TCP for protocol type
+外部端口选择80（常用服务器自动设置为HTTP）在浏览器中可以不带端口访问
 
-External port selection 80 (the common server is automatically set to HTTP) can be accessed without port in the browser
+但9000以下的端口可能会被封禁，此处我选择9090
 
-But ports below 9000 may be blocked, here I choose 9090
+如果没问题的话此时你可以直接访问DDNS设置的域名直接访问了
 
-If there is no problem, you can directly access the domain name set by DDNS at this time.
+如果有问题：
 
-If there's a problem:
+1. 内网服务未配置，没服务怎么访问
 
-1. The intranet service is not configured, how to access if there is no service
+2. 网关配置问题，不太懂，一般服务器能连接网络，正常上网就可以
 
-2. The gateway configuration problem, I don’t understand it very well. Generally, the server can connect to the network, and the Internet can be accessed normally.
+3. 端口开发不完全，在路由器配置DMZ主机解决
 
-3. The port development is not complete, and the DMZ host is configured on the router to solve the problem
+4. 非公网IP
 
-4. Non-public IP
+#### 非公网ip
 
-### Non-public IP
+方案一，没有公网ip就申请一个
 
-Option 1, apply for one without a public IP
+我这边是天津联通，来进行一个嫖
 
-I'm here with Tianjin Unicom, here for a prostitution
+1. 访问[联通官网](10010.com)，联系客服 -> 转人工 -> 跟他说申请公网ip，可能会让你找营业厅
 
-1. Visit [China Unicom's official website](10010.com), contact customer service -> transfer to labor -> tell him to apply for a public network ip, you may be asked to find a business hall
+2. 访问百度地图，找到最近的营业厅，拨打电话
 
-2. Visit Baidu Map, find the nearest business hall, and make a call
+3. 说申请公网ip，他可能不承认这个业务，告诉他10010让你找他
 
-3. Saying to apply for a public network ip, he may not recognize this business, tell him 10010 to let you find him
+4. 建立工单
 
-4. Create a work order
+5. 等待
 
-5. Wait
+6. 师傅打来电话，添加师傅微信
 
-6. The master called and added the master WeChat
+7. 发送身份证正反面，手持身份证上半身照片，公网ip用途
 
-7. Send the front and back of the ID card, hold the photo of the upper body of the ID card, the use of public network ip
+。。。
 
-. . .
+然后。。然后我就不知道了，我在这里卡住了。。。
 
-Then. . Then I don't know, I'm stuck here. . .
+与父母协商失败。。。
 
-Negotiation with parents failed. . .
+接下来大概就是师傅上门，给你改，断网一会，然后就好了
 
-The next step is probably for the master to come to the door, change it for you, disconnect the network for a while, and then it will be fine
+那既然协商失败了，换一个方案呗
 
-Then since the negotiation fails, let's change a plan.
+方案2，内网穿透
 
-Option 2, intranet penetration
+算是祭出杀手锏了，除了缺点以外基本没有缺点了
 
-It is a killer, except for the shortcomings, there are basically no shortcomings.
+此方案甚至适用于我的世界服务器
 
-This scheme even works on minecraft servers
+首先介绍一个好用的内网穿透：[樱花穿透SakuraFrp](https://natfrp.com)
 
-First introduce a useful intranet penetration: [Sakura penetration SakuraFrp](https://natfrp.com)
+内网穿透，顾名思义冲破内网的限制，让你就像公网ip一样，还可以只开特定设备的特定端口
 
-Intranet penetration, as the name implies, breaks through the restrictions of the intranet, so that you can only open specific ports of specific devices just like the public network ip
+注册，登陆，花一块钱实名一下，点击帮助->帮助文档
 
-Register, log in, spend a dollar for real name, click Help -> Help Documentation
+照着他的做就行了（这里不详细讲，文档十分详细了）
 
-Just follow what he did (I won't go into details here, the documentation is very detailed)
+阅读顺序：
 
-Reading order:
+HTTP(S)穿透
 
-HTTP(S) penetration
+linux安装及使用启动器
 
-Linux installation and use of the launcher
+完成以后使用鼠标悬停节点出现的冒号分类里的数字来访问
 
-After completion, use the number in the colon category that appears on the mouseover node to access
+到这里，公网已经可以访问了
 
-At this point, the public network is already accessible
+那下一步就是把这个又臭又长的地址美化一下了：）
 
-Then the next step is to beautify this smelly and long address :)
+## 附--域名及DNS服务器配置
 
-# Attach -- domain name and DNS server configuration
+要知道，baidu.com和www.baidu.com是两个不同的地址
 
-You know, baidu.com and www.baidu.com are two different addresses
+买下baidu.com这个域名会获得所以子域名（三级四级五级）
 
-Buying the domain name baidu.com will get all subdomains (level three, level four, level five)
+www就是baidu.com的三级域名
 
-www is the third-level domain name of baidu.com
+（使用阿里云演示）
 
-(Demo using Alibaba Cloud)
+打开阿里云官网，登陆，右上角控制台，域名，域名解析
 
-Open Alibaba Cloud official website, log in, console in the upper right corner, domain name, domain name resolution
+添加解析记录
 
-Add parsing records
+解析类型CNAME，记录值baidu.com，主机名@
 
-Resolution type CNAME, record value baidu.com, hostname@
+这样一个解析会将你的域名重定向到baidu.com
 
-Such a resolution will redirect your domain name to baidu.com
+@的意思是直接访问你的域名不加前缀
 
-@ means direct access to your domain name without prefix
+例如我的域名是mhyc.tech，加上这个解析之后浏览器输入mhyc.tech会直接到百度家
 
-For example, my domain name is mhyc.tech, after adding this analysis, the browser will directly go to Baidu home by entering mhyc.tech
+现在你可以理解阿里云的解析原理和特性，应该来解决实际问题了
 
-Now that you can understand the analysis principles and features of Alibaba Cloud, it is time to solve practical problems.
+## 域名太丑
 
-# The domain name is too ugly
+开开心心在阿里云控制台输入内网穿透的域名加端口，竟发现CNAME解析不能加端口
 
-Happy to enter the domain name and port for intranet penetration in the Alibaba Cloud console, but found that CNAME resolution cannot add the port
+怎么办，访问 mhyc.tech:端口号 实在是太不优雅了
 
-What to do, visit mhyc.tech: port number is too inelegant
+。。
 
-. .
+我们能不能再加一个服务器，使这个服务器指向网页服务器，使域名指向这个服务器？
 
-Can we add another server and make this server point to the web server and make the domain name point to this server?
+隆重介绍：
 
-Grand introduction:
+### URL转发
 
-## URL forwarding
+定义及分类可以自行百度。
 
-Definition and classification can be Baidu.
+这里推荐一个URL转发的工具[米发URL转发](https://mfpad.com)
 
-A tool for URL forwarding is recommended here [Mifa URL Forwarding](https://mfpad.com)
+通过他可以将域名指向另一个域名加端口
 
-Through him, you can point the domain name to another domain name plus port
+现在，访问你的网站流程是这样的：
 
-Now, the flow of accessing your website looks like this:
+![最复杂的情况](:2022-04-22-05.png)
 
-![The most complicated case](:2022-04-22-05.png)
+注：此方法目前的问题：
 
-Note: the current problems with this method:
+1. 网页无图标
 
-1. There is no icon on the webpage
+2. 刷新页面回到主页（真的难受）
 
-2. Refresh the page to go back to the home page (really uncomfortable)
+3. 未出现。。。
 
-3. Does not appear. . .
-
-Now trying to solve these problems, if there is progress, I will add it immediately
+现在正在试图解决这几个问题，如有进展会立即补充
 
 ---
 
-# 2022-06-17 22:05
+## 2022-06-17 22:05
 
-Just found out, the natfrp documentation was updated with a couple of additions to the https tutorial, so I remembered if it was possible to use an overseas tunnel
+刚发现，natfrp文档更新了，在https教程中添加了几条，因此我想起是否可以使用海外隧道
 
-Create an overseas tunnel (possibly with the suffix "by wall")
+创建海外隧道（可能带后缀"被墙"）
 
-Follow the documentation and you can completely resolve all questions about the website
+按照文档行事，就可以完全解决关于网站开设的所有问题
 
-Congratulations!
+恭喜！
+
 -----
+参考链接
 
-Links
+[Tplink端口映射（DDNS）教程](https://service.tp-link.com.cn/detail_article_69.html)
 
-[Tplink DDNS Guide](https://service.tp-link.com.cn/detail_article_69.html)
+[tplink端口映射失败（官方教程）](https://service.tp-link.com.cn/detail_article_427.html)
 
-[tplink端口映射failed（Guide）](https://service.tp-link.com.cn/detail_article_427.html)
+[阿里云官网](cn.aliyun.com)
 
-[Aliyun](cn.aliyun.com)
-
-[MFpad URL](https://mfpad.com)
+[米发URL转发](https://mfpad.com)

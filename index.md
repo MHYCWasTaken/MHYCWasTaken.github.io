@@ -37,6 +37,5 @@ img: "https://bing.img.run/1920x1080.php"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-Welcome to MHYC's Blog
-
-Do not distribute without MHYC's allow.
+欢迎来到MHYC的博客吖  
+随便看看吧

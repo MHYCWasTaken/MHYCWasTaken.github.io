@@ -35,31 +35,34 @@ lng_pair: id_links
 # you can always move this content to _data/content/ folder
 # just create new file at _data/content/links/[language].yml and move content below.
 ###########################################################
-#                Links Page Data
+#        Links Page Data
 ###########################################################
 page_data:
   main:
-    header: "Links"
-    info: "Some of MHYC's website collection."
+    header: "链接"
+    info: "MHYC自己收藏的一些有趣的网站"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Useful Resources"
+    - title: "回形针Paperclip"
+      type: id_paperclip
+      color: "#14367B"
+    - title: "奇妙资源"
       type: id_resources
       color: "#AC3232"
-    - title: "Useful Tools"
+    - title: "奇妙工具"
       type: id_tools
       color: "#DF7126"
-    - title: "Useful Applications"
+    - title: "奇妙软件"
       type: id_apps
       color: "#FBF236"
-    - title: "Useful Articles"
+    - title: "好的文章"
       type: id_good_articles
       color: "#99E550"
-    - title: "Good Website Design"
+    - title: "奇妙的网页设计"
       type: id_website_design
       color: "#6ABE30"
-    - title: "Time Killer"
+    - title: "消磨时间"
       type: id_time_killer
       color: "#37946E"
 
@@ -69,182 +72,319 @@ page_data:
     - type: id_apps
       title: "KiCAD"
       url: "https://www.kicad.org/"
-      info: "Open source pcd and schmetics designer, and the only choice on linux."
+      info: "开源的pcb及原理图设计软件，也基本是linux系统上的唯一选择"
     - type: id_apps
-      title: "Lunar Client"
+      title: "Lunar客户端"
       url: "https://www.lunarclient.com/"
-      info: "Lunar is a Minecraft Java Client/Launcher for PVP and high FPS"
+      info: "Lunar是一个便于pvp和提高帧率的minecraft java启动器/客户端"
     - type: id_apps
-      title: "Labymod Client"
+      title: "Labymod客户端"
       url: "https://www.labymod.net/en/"
-      info: "Labymod is also a Minecraft Java Client for PVP and high FPS"
+      info: "Labymod也是一个便于pvp和提高帧率的minecraft java客户端"
     - type: id_apps
       title: "Motrix"
       url: "https://motrix.app/"
-      info: "A downloader based by Aria, Say GOODBYE to thunder."
+      info: "基于Aria的开源下载器，和迅雷说拜拜"
     - type: id_apps
-      title: "Install Aseprite on Linux"
+      title: "在Linux下安装Aseprite"
       url: "https://docs.shanyuhai.top/design/pixel/install-aseprite-on-linux.html#%E5%AE%89%E8%A3%85"
-      info: "From Blog of 飞跃高山与大海的鱼"
+      info: "来自飞跃高山与大海的鱼的博客"
     
     # website design
     - type: id_website_design
-      title: "Interesting Cursor"
+      title: "奇妙鼠标指针"
       url: "https://www.cnblogs.com/zhaoqingqing/p/11546010.html"
-      info: "I'm sorry about my focus is on the mouse pointer"
+      info: "非常抱歉我的关注点在鼠标指针上面"
     - type: id_website_design
-      title: "Interesting Cursor * 2"
+      title: "奇妙鼠标指针(二度)"
       url: "https://www.cnblogs.com/Potrem/p/51_6.html"
-      info: "I'm very sorry about my focus is on the mouse pointer"
+      info: "真的非常抱歉我的关注点在鼠标指针上面"
     - type: id_website_design
-      title: "Interesting design of site"
+      title: "很好看的页面排版和字体"
       url: "https://embersword.com/"
-      info: "I'm really sorry. My focus is on typesetting and fonts"
+      info: "真的非常抱歉我的关注点在排版和字体上面"
     - type: id_website_design
-      title: "windows 11 on a browser"
+      title: "非常牛逼的网页版win11"
       url: "https://win11.blueedge.me/"
-      info: "dalao"
-      
+      info: "真的TNND牛逼"
+    - type: id_website_design
+      title: "火狐的毛玻璃效果"
+      url: "https://www.wemod.com/zh"
+      info: "上边的nav bar"
+    - type: id_website_design
+      title: "火狐的毛玻璃效果"
+      url: "https://dahliaos.io/"
+      info: "还是上边的nav bar"
 
     # resources
     - type: id_resources
       title: "Jetbrains Mono"
       url: "https://www.jetbrains.com/lp/mono/"
-      info: "Jetbrain's mono font. Designed for programmer"
+      info: "Jetbrain自带的等宽字体，专为程序员设计"
     - type: id_resources
       title: "基本操作——可以玩的大学课程"
       url: "https://jibencaozuo.com/zh-Hans/"
-      info: "died"
+      info: "已经没用咧，默哀3秒钟"
     - type: id_resources
-      title: "ZX Spectrum Contents of instructions"
+      title: "ZX Spectrum 说明书目录"
       url: "https://worldofspectrum.org/ZXBasicManual/"
-      info: "Instructions for an 8-bit computer of the last century"
+      info: "一台上世纪8位计算机的说明书"
     - type: id_resources
       title: "FontAwesome"
       url: "https://fontawesome.com"
-      info: "No more worrying about icons"
+      info: "再也不用为图标发愁辣～"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (1).pdf"
+      info: "电子学自学指南（1）（pdf）"
+    - type: id_resources
+      title: "ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2)"
+      url: "assets/ALL NEW ELECTRONICS SELF-TEACHING GUIDE (2).pdf"
+      info: "电子学自学指南（2）（pdf）"
     - type: id_resources
       title: "OI WIKI"
       url: "https://oi-wiki.org/"
-      info: "c++ oi wiki"
+      info: "c++竞赛wiki，涉及各种算法详解及STL讲解，再也不用去CSDN辣"
     - type: id_resources
       title: "Havok Physics"
       url: "https://www.havok.com/"
-      info: "Legend of zelda botw use it"
+      info: "震荡波物理引擎，此外震荡波还有npc的AI和布料模拟，塞尔达botw使用了全部3个"
+    - type: id_resources
+      title: "Crowdin - 翻译社区"
+      url: "https://crowdin.com/"
+      info: "召集大众为你的游戏、文章进行翻译"
+    - type: id_resources
+      title: "Next.js"
+      url: "https://vercel.com/solutions/nextjs"
+      info: "javascript框架（我不会js只是觉得可能有用）"
+    - type: id_resources
+      title: "ravynOS"
+      url: "https://ravynos.com"
+      info: "挺有意思的系统，装个玩玩"
+    - type: id_resources
+      title: "skiftOS"
+      url: "https://skiftos.org/"
+      info: "挺有意思的系统，装个玩玩（二度"
+    - type: id_resources
+      title: "giscus"
+      url: "https://giscus.app/zh-CN"
+      info: "gitalk代替方案"
+    - type: id_resources
+      title: "PainterEngine"
+      url: "https://www.painterengine.com/"
+      info: "一个由C语言编写的完整开源的跨平台图形应用框架"
+    - type: id_resources
+      title: "Cosmopolitan Libc"
+      url: "https://justine.lol/cosmopolitan/index.html"
+      info: "单次编译到处运行的C库"
     
       
     # articles
     - type: id_good_articles
       url: "https://www.zhihu.com/question/20112194"
       title: "为什么计算机能够读懂0和1？(知乎)"
-      info: "A computer composition starting with logic gates (easy to understand)(in Chinese)"
+      info: "一篇从逻辑门开始讲起的计算机构成（简单易懂）"
+    - type: id_good_articles
+      url: "https://zhuanlan.zhihu.com/p/423120746"
+      title: "从零手写游戏引擎21：物理引擎基础(知乎)"
+      info: "游戏引擎物理部分基础"
     - type: id_good_articles
       url: "http://allenchou.net/game-physics-series/"
-      title: "Game physics | 周明伦"
-      info: "Game Physics Series"
+      title: "游戏物理系列 | 明伦“艾伦”周 | 周明伦"
+      info: "物理引擎系列"
     - type: id_good_articles
       url: "https://ubuntu.com/blog/linux-gaming-tutorial-raspberry-pi-minecraft-server-on-ubuntu-desktop"
-      title: "Raspberry Pi guide: Host Minecraft Server on Ubuntu Desktop"
-      info: "simple minecraft server guide"
+      title: "Raspberry Pi 教程：在 Ubuntu 桌面上托管 Minecraft 服务器 Ubuntu"
+      info: "简单直接的mc开服教程，其他地方大同小异"
+    - type: id_good_articles
+      url: "https://prohibitorum.top/7cc2c97a15b4.html#2022-8-26"
+      title: "解决 Gitalk 无法获取 Github Token 问题 | 恋の歌"
+      info: ""
+    - type: id_good_articles
+      url: "https://zhuanlan.zhihu.com/p/341543249"
+      title: "五分钟搭建博客评论组件-gitalk - 知乎"
+      info: ""
       
 
     # tool
     - type: id_tools
-      title: "VERSUS Compare"
+      title: "VERSUS对比"
       url: "https://versus.com/cn/"
-      info: "Compare everything, including cities, universities and GPUs"
+      info: "万物皆可对比，包括城市，大学和GPU"
     - type: id_tools
-      title: "Bullshit Generator"
+      title: "狗屁不通文章生成器"
       url: "https://suulnnka.github.io/BullshitGenerator/index.html"
     - type: id_tools
-      title: "Minecraft font pack generator"
+      title: "我的世界字体包生成"
       url: "https://codepen.io/devbobcorn/full/YzZMZvV"
-      info: "Upload ttf file and download font resources pack"
+      info: "上传ttf文件即可制作字体资源包"
     - type: id_tools
-      title: "Mountain Finder"
+      title: "山峰寻找器"
       url: "https://www.peakfinder.org/"
-      info: "Find you favourite mountain(based on bgfx and opensource)"
+      info: "找到你最熟悉的那座山（基于bgfx渲染且开源）"
     - type: id_tools
       title: "GodoterCN"
       url: "https://godoter.cn/"
-      info: "The domestic Godot community has a good atmosphere"
+      info: "国内的Godot社区，氛围很好"
     - type: id_tools
       title: "Alternative To"
       url: "https://alternativeto.net/"
-      info: "When you find that the required software is not available on linux/mac, come here"
+      info: "当你发现需要的软件在linux/mac上没有时，就来这里"
     - type: id_tools
       title: "jsfxr"
       url: "https://sfxr.me/"
-      info: "8bit sfx generate, 4 3 (for free)"
+      info: "8bit音效生成，有专业版，似乎不需要付费"
     - type: id_tools
       title: "Jitsi Meetings"
       url: "https://meet.jit.si/"
-      info: "Video meeting without accounts"
+      info: "腾讯会议替代品，免费无需账号的视频会议"
     - type: id_tools
       title: "BigBlueButton"
       url: "https://bigbluebutton.org/"
-      info: "Video meeting for teachers"
+      info: "为教师设计的虚拟教室（视频会议）"
     - type: id_tools
-      title: "Minecraft Server Host - RAMShard"
+      title: "最佳 Minecraft 服务器托管 - RAMShard"
       url: "https://ramshard.com/hosting/minecraft?referrer=ga"
-      info: "~"
+      info: "我的世界服务器托管"
     - type: id_tools
       title: "ScalaCube - Game Server Hosting"
       url: "https://scalacube.com/"
-      info: "~"
-      
-      
+      info: "我的世界服务器托管"
+    - type: id_tools
+      title: "免費網站 | 專業網頁製作 | Wix.com"
+      url: "https://zh.wix.com/"
+      info: ""
+    - type: id_tools
+      title: "Vercel"
+      url: "https://vercel.com/"
+      info: ""
+    - type: id_tools
+      title: "dustinbrett"
+      url: "https://dustinbrett.com/"
+      info: "什么叫做真正的网页版操作系统啊（后仰"
+    - type: id_tools
+      title: "DeepL | 翻译"
+      url: "https://www.deepl.com/translator"
+      info: "翻译软件，大大滴好用"
+    - type: id_tools
+      title: "Geogebra"
+      url: "https://www.geogebra.org/"
+      info: "网页版/桌面版几何画板但是更加好看好用"
+    - type: id_tools
+      title: "数学视频的引擎"
+      url: "https://github.com/3b1b/manim"
+      info: "3b1b/manim: Animation engine for explanatory math videos"
+    - type: id_tools
+      title: "MC服务器判断-在线工具箱"
+      url: "https://tool.mintimate.cn/mcstatus/"
+      info: ""
+    - type: id_tools
+      title: "雨月空间站"
+      url: "https://mintimate.cn/"
+      info: "一些奇妙网页版工具"
+    - type: id_tools
+      title: "Github Codespaces"
+      url: "https://github.com/codespaces"
+      info: "在网页版道路上越走越远（网页版VSCode）"
+    - type: id_tools
+      title: "微软翻译"
+      url: "https://www.microsoft.com/zh-cn/translator/apps/features/#download-app"
+      info: "请前往网站了解，三言两语说不完"
+  
     # time killer
     - type: id_time_killer
       title: "Spirisut of sound"
       url: "https://pos.biborg.com/fr/"
-      info: "I don't know which country's powerful developers made three Parkour"
+      info: "不知道哪国的强大开发者制作的三道跑酷"
     - type: id_time_killer
       title: "DLS Sandbox"
       url: "https://dls.makingartstudios.com/sandbox/"
-      info: "Logic gate sandbox, It is suggested to use with “为什么计算机能够读懂0和1？(知乎)”"
+      info: "逻辑门的沙盒，建议搭配“为什么计算机能够读懂0和1？(知乎)”食用"
     - type: id_time_killer
       title: "EmberSword"
       url: "https://embersword.com/"
-      info: "An online game based on bgfx. It seems that it can't be registered, but the publicity page is very nice"
+      info: "一款基于bgfx的网游，似乎无法注册但是宣传页面很好看"
     - type: id_time_killer
       title: "Lichess"
       url: "https://lichess.org/"
-      info: "Online free opensource Chess"
+      info: "开源免费在线国际象棋，比国内的那些奇妙的广告喧宾夺主的平台好多了"
     - type: id_time_killer
-      title: "Play Chess with Stockfish"
+      title: "和Stockfish下棋"
       url: "https://listudy.org/en/play-stockfish"
-      info: "Play Chess against Stockfish(strongest Chess AI, opensource)"
+      info: "与最强国象AI(开源)对弈(虽然lichess也行)"
     - type: id_time_killer
       title: "Chess Wars"
       url: "https://dt-mark.itch.io/chess-wars"
-      info: "RPG And Items crack with Chess (free)"
+      info: "RPG和回合制与国际象棋的奇妙融合（免费）"
     - type: id_time_killer
       title: "ULTRAKILL"
       url: "https://hakita.itch.io/ultrakill-prelude"
-      info: "good fps game but a bit scary"
+      info: "打击感非常好但是略恐怖的极好fps游戏"
     - type: id_time_killer
       title: "RE:RUN"
       url: "https://hakita.itch.io/ultrakill-prelude"
-      info: "RUN 'N SWORD"
+      info: "跑酷飞刀游戏"
     - type: id_time_killer
       title: "Checkmate"
       url: "https://charlie-morel.itch.io/checkmate"
-      info: "Chess+tps"
+      info: "国际象棋+tps"
     - type: id_time_killer
       title: "eldritch-eclipse"
       url: "https://crowbarska.itch.io/eldritch-eclipse"
-      info: "doom-like fps"
+      info: "像素风类doom的fps游戏"
     - type: id_time_killer
       title: "Mindustry"
       url: "https://anuke.itch.io/mindustry"
-      info: "i dont know how to description this game, but it is good that you're gonna like it"
+      info: "混合塔防沙盒工厂游戏，创建传送带供应链，将弹药送入炮塔，生产材料，保护你的建筑"
+    - type: id_time_killer
+      title: "A short hike"
+      url: "https://adamgryu.itch.io/a-short-hike"
+      info: "3维，自由探索，登山，卡通画风(7.99USD)"
+    - type: id_time_killer
+      title: "Desktop Goose"
+      url: "https://samperson.itch.io/desktop-goose"
+      info: "桌面宠物，鹅"
     - type: id_time_killer
       title: "Mobs inc"
       url: "https://overboy.itch.io/mobs-inc"
-      info: "web little game, interesting"
+      info: "冲刺杀人，打工"
+    - type: id_time_killer
+      title: "Rougelight"
+      url: "https://managore.itch.io/roguelight"
+      info: "卷轴视角地牢，像素画风，低对比度"
+    - type: id_time_killer
+      title: "Force Reboot"
+      url: "https://ln404.itch.io/force-reboot"
+      info: "肉鸽fps，也有极好打击感，但无恐怖元素"
+    - type: id_time_killer
+      title: "Overboy"
+      url: "https://overboy.itch.io/"
+      info: "不错的游戏工作室，大部分游戏可以在线游玩，下载需money"
     - type: id_time_killer
       title: "Bruno-Simon"
       url: "https://bruno-simon.com/"
-      info: "web driving game"
+      info: "网页端的开越野车游戏"
+    - type: id_time_killer
+      title: "LibreOJ"
+      url: "https://loj.ac/"
+      info: "OJ平台（为什么会在时间杀手分类里面）"
+    - type: id_time_killer
+      title: "Inscryption | 现已发售"
+      url: "https://www.inscryption.com/zh"
+      info: "卡牌游戏+arg游戏（arg部分已通关）"
+    - type: id_time_killer
+      title: "nazo game"
+      url: "https://nazo.one-story.cn/"
+      info: "网络迷踪（大雾"
+
+    # paperclip
+    - type: id_paperclip
+      title: "paperclip icu"
+      url: "https://ipaperclip.icu/"
+    - type: id_paperclip
+      title: "wandering paperclip"
+      url: "https://wandering-paperclip.glitch.me/"
+    - type: id_paperclip
+      title: "ipaperclip"
+      url: "http://ipaperclip.live/"
 ---
