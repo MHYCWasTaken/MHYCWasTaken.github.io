@@ -204,6 +204,10 @@ page_data:
       url: "https://zhuanlan.zhihu.com/p/341543249"
       title: "五分钟搭建博客评论组件-gitalk - 知乎"
       info: ""
+    - type: id_good_articles
+      url: "https://www.a1k0n.net/2011/07/20/donut-math.html"
+      name: "甜甜圈代码"
+      info: ""
       
 
     # tool
