@@ -3,7 +3,7 @@ layout: post
 title: "树梅派点亮完全指南"
 category: guide
 tag: 
-- rasberrypi
+- raspberrypi
 - hardware
 date: 2022-02-17
 excerpt: "关于树莓派新手遇到的问题，包括红灯长亮，系统烧录，后续使用"
