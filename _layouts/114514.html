@@ -16,12 +16,22 @@ layout: compress
             width: 70%;
         }
 
+        @media screen and (max-width: 1201px) {
+            .block-left {
+                width: 100%;
+            }
+
+            .block-right {
+                width: 100%;
+            }
+        }
+
         a,
         a:link,
         a:visited,
         a:focus {
             text-decoration: none;
-            color: #562a2a;
+            color: #f5a0a0;
         }
 
         .left-to-right {
@@ -56,7 +66,7 @@ layout: compress
         <div class="block-left">
             <div class="content">
                 <div class="main-info">
-                    <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+                    <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/favicons/114514.jpg"></a>
                     <h1>
                         {{ site.title }}
                     </h1>
@@ -76,7 +86,7 @@ layout: compress
             <canvas></canvas>
         </div>
         <div class="block-right">
-            <img href="{{ site.url }}/images/114514.jpg">
+            <img src="{{ site.url }}/images/114514.jpg">
 
         </div>
         {% include overlay.html %}
