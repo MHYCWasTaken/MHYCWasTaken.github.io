@@ -1,17 +1,16 @@
 ---
-lng_pair: id_Building_personal_blog_With_Jekyll_And_Raspberrypi_4b
-title: 【中】树莓派4b和Jekyll搭建个人博客
-date: 2022-03-06 11:45:14 +0900
+layout: post
+title: 树莓派4b和Jekyll搭建个人博客
+date: 2022-03-06
 category: guide
-tags: [raspberrypi, jekyll, website, software]
-img: ":jekyll.png"
+tags: 
+- raspberrypi
+- jekyll
+- website
+- software
+excerpt: GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧。
+image: images/headimg/jekyll.png
 ---
-
-<!-- outline-start -->
-
-GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧。
-
-<!-- outline-end -->
 
 ## 选择博客平台
 
@@ -65,7 +64,7 @@ GithubPages太慢了，正好树莓派4b买回来正在吃灰，搭个博客吧�
 
 点击 `Code`  然后复制 `git link`
 
-![复制这个链接(点击查看图片)](:2022-03-06-01.png)
+![复制这个链接(点击查看图片)](/images/post/2022-03-06-01.png)
 
 运行 ``git clone [your theme git link]``
 

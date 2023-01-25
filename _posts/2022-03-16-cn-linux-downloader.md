@@ -1,22 +1,24 @@
 ---
-lng_pair: id_Linux_Downloader
-title: 【汉】树莓派下载站白嫖Rutracker（1）-- Aria2搭建
-date: 2022-03-16 11:45:14 +0900
+layout: post
+title: 树莓派下载站白嫖Rutracker（1）-- Aria2搭建
+date: 2022-03-16
 category: guide
-tags: [raspberrypi]
-img: ":rutracker.png"
+tags: 
+- raspberrypi
+excerpt: "俄乌大战打了有一段时间了，RUTRACKER我也知道的，只不过一直上不去，所以放弃了
+直到今天，我试着在树莓派上进入了rutracker，竟然成功了！
+来吧直接开整"
+image: images/headimg/rutracker.png
 ---
 
 
 ## 引
 
-<!-- outline-start -->
 俄乌大战打了有一段时间了，RUTRACKER我也知道的，只不过一直上不去，所以放弃了
 
 直到今天，我试着在树莓派上进入了rutracker，竟然成功了！
 
 来吧直接开整
-<!-- outline-end -->
 
 ## 找资源（来看下载站搭建的跳过）
 
@@ -32,7 +34,7 @@ edge地址栏（上面那个）直接打： ```<你要搜索的> website:rutrack
 
 例如我要找老头环： ```Eldern Ring website:rutracker.org```
 
-![老头环示例（点击查看图片）](:2022-03-16-01.png)
+![老头环示例（点击查看图片）](/images/post/2022-03-16-01.png)
 
 原理是通过edge自带的功能将搜索范围限制在rutracker里
 
@@ -178,13 +180,13 @@ edge地址栏（上面那个）直接打： ```<你要搜索的> website:rutrack
 
 可能会认证失败，我来教你怎么解决
 
-![认证失败（点击查看图片）](:2022-03-16-02.png)
+![认证失败（点击查看图片）](/images/post/2022-03-16-02.png)
 
 AriaNg 设置 -> RPC -> Aria2 RPC秘钥
 
 填入之前配置Aria2时让你记住的密码
 
-![填入秘钥（点击查看图片）](:2022-03-16-03.png)
+![填入秘钥（点击查看图片）](/images/post/2022-03-16-03.png)
 
 完成了！
 

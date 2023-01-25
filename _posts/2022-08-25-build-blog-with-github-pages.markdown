@@ -1,17 +1,16 @@
 ---
-lng_pair: id_build_blog_with_github_pages
-title: 【中】GithubPages搭建个人博客
-date: 2022-08-25 11:45:14 +0900
+layout: post
+title: GithubPages搭建个人博客
+date: 2022-08-25
 category: guide
-tags: [jekyll, website, software]
-img: ":github_pages.png"
+tags: 
+- jekyll
+- website
+- software
+excerpt: "看看GithubPages的搭建，还有Github加速方法"
+image: images/headimg/github_pages.png
 ---
 
-<!-- outline-start -->
-
-看看GithubPages的搭建，还有Github加速方法
-
-<!-- outline-end -->
 
 ## 为什么使用GithubPages
 
@@ -37,17 +36,17 @@ img: ":github_pages.png"
 
 在[这里](https://mhyc.eu.org/zh/2022-03-06-cn-building-personal-blog-with-jeyll-and-raspberrypi-4b#%E5%AF%BB%E6%89%BE%E4%BD%A0%E7%9A%84%E4%B8%BB%E9%A2%98)找一个中意的主题，最终应该来到一个github的仓库页面，(例如我的[jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy))点击 `fork`
 
-![fork按钮](:2022-08-25-01.png)
+![fork按钮](/images/post/2022-08-25-01.png)
 
 Repository Name 一项填入 `<自己的名字>.github.io`
 
 例如我的github名字叫做 `MHYCWasTaken` ，我就填入 `MHYCWasTaken.github.io`
 
-![fork名](:2022-08-25-02.png)
+![fork名](/images/post/2022-08-25-02.png)
 
 完成后来到自己的仓库页面，如果看见有一个小绿勾，代表你的页面已经部署完毕了，可以前往 `https://<你的名字>.github.io` 访问
 
-![小绿勾](:2022-08-25-03.png)
+![小绿勾](/images/post/2022-08-25-03.png)
 
 如果是个小黄点，多刷新几次，如果是个红叉，删除此仓库重试一次
 
@@ -84,7 +83,7 @@ notepad和vs code选装
 
 完成后在GithubDesktop填写一个commit内容，就是你这一次修改干了什么事情，点击commit
 
-![GithubDesktop的commit](:2022-08-25-04.png)
+![GithubDesktop的commit](/images/post/2022-08-25-04.png)
 
 点击右上角push
 
@@ -92,7 +91,7 @@ notepad和vs code选装
 
 此外你还可以在vscode中点击github按钮，填入commit内容，点击小三角，点击 `commit+push`
 
-![vscode的commit&push](:2022-08-25-05.png)
+![vscode的commit&push](/images/post/2022-08-25-05.png)
 
 可以达到一样的效果
 
@@ -153,7 +152,7 @@ CustomDomain填入你的域名，二级域名也可以，前提是域名是你�
 
 还可以在下面勾上 `Enforce HTTPS` 这样Github会送你一个ssl证书，访问时可以用 `https://<domain>` 来访问，浏览器也会给出护盾的标志表示网站安全
 
-![ssl效果](:2022-08-25-06.png)
+![ssl效果](/images/post/2022-08-25-06.png)
 
 可是你发现使用原来的域名也可以访问，那在github检查dns有什么用吗
 

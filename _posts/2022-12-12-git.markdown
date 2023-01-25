@@ -1,17 +1,13 @@
 ---
-lng_pair: id_git
-title: "【中】fatal: Could not read from remote repository.  Please make sure you have the correct access rights and the repository exists."
-date: 2022-12-12 11:45:14 +0900
+layout: post
+title: "fatal: Could not read from remote repository.  Please make sure you have the correct access rights and the repository exists."
+date: 2022-12-12
 category: guide
-tags: [git]
-img: ":git-fail.png"
+tags: 
+- git
+ecerpt: "真烦人！！"
+image: images/headimg/git-fail.png
 ---
-
-<!-- outline-start -->
-
-真烦人！！
-
-<!-- outline-end -->
 
 ## 起因
 
