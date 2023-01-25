@@ -68,10 +68,18 @@ layout: compress
     <div class="block-left">
       <div class="content">
         <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
-        <a href="{{ site.url }}/posts" title="posts" class="left-to-right">文章</a>
-        <a href="{{ site.url }}/projects" title="projects" class="left-to-right">项目</a>
-        <a href="{{ site.url }}/links" title="links" class="left-to-right">链接</a>
-        <a href="{{ site.url }}/tags" title="tags" class="left-to-right">标签</a>
+        <a href="{{ site.url }}/posts" title="posts" class="left-to-right">
+          <i class="fa-solid fa-bookmark"></i>文章
+        </a>
+        <a href="{{ site.url }}/projects" title="projects" class="left-to-right">
+          <i class="fa-solid fa-folder"></i>项目
+        </a>
+        <a href="{{ site.url }}/links" title="links" class="left-to-right">
+          <i class="fa-solid fa-link"></i>链接
+        </a>
+        <a href="{{ site.url }}/tags" title="tags" class="left-to-right">
+          <i class="fa-solid fa-tag"></i>标签
+        </a>
         <div class="post-title-section">
           <div class="section-line">Posts <em>/</em></div>
           <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
