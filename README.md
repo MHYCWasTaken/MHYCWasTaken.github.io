@@ -9,7 +9,7 @@
 🎮 Van游戏: Minecraft, Overwatch, 塞尔达传说, ULTRAKILL, 5dc, Mindustry  
 ⌨️ 语言: C++, Java, html & css
 
-## Contract
+## Contact
 
 邮箱 [MHYC133@outlook.com](mainto:MHYC133@outlook.com)  
 bilibili [MHYC133](https://space.bilibili.com/1251782597)  
