@@ -1,0 +1,90 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="homepage">
+    <style type="text/css">
+        .block-left {
+            width: 25%;
+        }
+
+        .block-right {
+            width: 70%;
+        }
+
+        a,
+        a:link,
+        a:visited,
+        a:focus {
+            text-decoration: none;
+            color: #562a2a;
+        }
+
+        .left-to-right {
+            position: relative;
+        }
+
+        /* TODO color fix */
+        .left-to-right::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background: rgb(51, 21, 21);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .left-to-right:hover::after {
+            width: 100%;
+        }
+
+        /* from https://blog.csdn.net/weixin_42793426/article/details/96483539 */
+        div.big-border {
+            width: 100%;
+            height: 100%;
+            border: 10px solid rgb(90, 54, 54);
+        }
+    </style>
+    <div class="big-border">
+        <div class="block-left">
+            <div class="content">
+                <div class="main-info">
+                    <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+                    <h1>
+                        {{ site.title }}
+                    </h1>
+                    <h2>
+                        {{ site.description }}
+                    </h2>
+
+                    <!--TODO buttons-->
+
+                    <a href="{{ site.url }}/posts" title="posts" class="left-to-right">啊啊</a>
+                    <a href="{{ site.url }}/projects" title="projects" class="left-to-right">啊啊</a>
+                    <a href="{{ site.url }}/links" title="links" class="left-to-right">啊啊</a>
+                    <a href="{{ site.url }}/tags" title="tags" class="left-to-right">啊啊</a>
+                    {% include social-links.html %}
+                </div>
+            </div>
+            <canvas></canvas>
+        </div>
+        <div class="block-right">
+            <img href="{{ site.url }}/images/114514.jpg">
+
+        </div>
+        {% include overlay.html %}
+        {% include scripts.html %}
+        <script src="{{ site.url }}/assets/js/canvas.js"></script>
+    </div>
+</body>
+
+</html>
+
+<!--TODO DARK MODE-->
