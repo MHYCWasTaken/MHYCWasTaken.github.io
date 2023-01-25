@@ -12,6 +12,15 @@ permalink: /tags.html
   .block-right {
     width: 70%;
   }
+  @media screen and (max-width: 1201px) {
+    .block-left {
+      width: 100%;
+    }
+
+    .block-right {
+       width: 100%;
+    }
+  }
 </style>
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
