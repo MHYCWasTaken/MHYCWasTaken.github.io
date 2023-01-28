@@ -223,7 +223,7 @@ FlipMoveOptions是一个特效，发布评论时播放的，看了一圈就这�
 
 ## 后
 
-每次发布新文章，都需要仓科主任来到文章下面，登录并点击创建初始化Issue才可正常评论
+每次发布新文章，都需要仓库主人来到文章下面，登录并点击创建初始化Issue才可正常评论
 
 [如需对照参考id和title的作用，看我的gitalk仓库](https://github.com/MHYCWasTaken/better-os-tutorial-cn/issues)
 
