@@ -14,7 +14,7 @@ layout: home
 
 ---
 
-邮箱 [MHYC133@outlook.com](mainto:MHYC133@outlook.com)
+邮箱 [MHYC133@outlook.com](mailto:MHYC133@outlook.com)
 
 bilibili [MHYC133](https://space.bilibili.com/1251782597)
 
