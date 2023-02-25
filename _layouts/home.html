@@ -59,7 +59,7 @@ layout: compress
     div.big-border {
       width: 100%;
       height: 100%;
-      border: 10px solid rgb(188, 173, 173);
+      border: 10px solid rgb(158, 164, 255);
     }
   </style>
   <div class="big-border">
@@ -79,21 +79,26 @@ layout: compress
           <a href="{{ site.url }}/posts" title="posts" class="left-to-right">
             <i class="fa fa-fw fa-bookmark"></i>文章
           </a>
-          <a href="{{ site.url }}/projects" title="projects" class="left-to-right">
-            <i class="fa fa-fw fa-folder"></i>项目
-          </a>
-          <a href="{{ site.url }}/links" title="links" class="left-to-right">
+          <!--TODO LINKS<a href="{{ site.url }}/links" title="links" class="left-to-right">
             <i class="fa fa-fw fa-link"></i>链接
-          </a>
+          </a>-->
           <a href="{{ site.url }}/tags" title="tags" class="left-to-right">
             <i class="fa fa-fw fa-tag"></i>标签
           </a>
+
+          
+
           {% include social-links.html %}
         </div>
       </div>
       <canvas></canvas>
     </div>
     <div class="block-right">
+
+      <a title="project" class="projects-menu-icon">
+        <span></span>
+      </a>
+      <span class="projects-link"><i class="fa fa-fw fa-folder"></i>项目</span>
 
       <div class="content">
         <div class="about-info">
