@@ -175,13 +175,11 @@ canvas {
   height: 100%;
   > li {
     display: inline-block;
-    width: calc(100%/3);
+    width: calc(80%);
     background: $overlay-color;
-    height: 50%;
+    height: 60px;
     border: 5px solid $overlay-color;
-    position: relative;
     vertical-align: top;
-    float: left;
     background-size: cover !important;
     &:nth-child(8n+1),
     &:nth-child(8n+2) {

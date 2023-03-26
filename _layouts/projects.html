@@ -63,7 +63,7 @@ layout: compress
     }
   </style>
   <div class="big-border">
-    <div class="block-left">
+    <div class="block-left" style="width: 30%;">
       <div class="content">
         <div class="main-info">
           <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
@@ -96,21 +96,8 @@ layout: compress
       </div>
       <canvas></canvas>
     </div>
-    <div class="block-right">
-
-      <a title="project" class="projects-menu-icon">
-        <span></span>
-      </a>
-      <span class="projects-link"><i class="fa fa-fw fa-folder"></i>项目</span>
-
-      <div class="content">
-        <div class="about-info">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-    {% include scripts.html %}
-    <script src="{{ site.url }}/assets/js/canvas.js"></script>
+    <div class="block-right" style="background-color: #282c34;">
+    {% include overlay.html %}
   </div>
 </body>
 
