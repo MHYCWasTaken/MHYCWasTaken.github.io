@@ -12,6 +12,19 @@
     <p style="font-size:14px;color=#fff">如果网址上不去请安装Watt Toolkit加速（https://steampp.net）</p>
 
 
+- title: 一个人工智能的诞生（Gitlab国内稳定访问版）
+  url: https://github.com/MHYCWasTaken/Birth-of-an-AI
+  image: images/projects/birth_of_an_ai.png
+  completed: true
+  introduce: |
+    <p style="font-size:14px">从最简单的二元分类，到坐标系，神经网络，矩阵变换，手算梯度下降<br>
+    机器学习正给世界带来重大影响。  <br>
+    小区门口的人脸识别开锁、手机里的信息流推荐、路上的自动驾驶，这一切技术的背后都是机器学习。  <br>
+    这技术似乎掌握在少部分精英手中。  <br>
+    拆开人工智能的黑箱，丢开别人提供的算法和函数  <br>
+    从鳄鱼和蛇开始，理解人工智能<br></p>
+
+
 - title: 从零开始编写一个操作系统——注解版
   url: https://mhyc.eu.org/better-os-tutorial-cn
   image: 
