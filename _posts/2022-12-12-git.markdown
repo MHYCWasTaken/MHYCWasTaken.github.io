@@ -58,3 +58,12 @@ git config --global user.email "改成你自己的邮箱"
 ## 后
 
 没错你发现了，我们抛弃了ssh登录转用用户名密码登录，有人可能不喜欢这样，但是我ssh登录真的不能用啊呜呜呜（大哭
+
+## 后 - 后
+
+啊破案了，ssh登陆后只能用ssh连接来clone、push、pull
+
+```
+git remote add <name> <git@gitxx.com:xxx/xxx>
+git pull <name> <branch>
+```
