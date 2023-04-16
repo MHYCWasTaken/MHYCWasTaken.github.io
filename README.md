@@ -1,18 +1,9 @@
-# MHYC blog
+# MHYC的主页
 
-[MHYC.eu.org](https://mhyc.er.org)
+改自 [sun0225SUN/Homepage](https://github.com/sun0225SUN/Homepage)
 
-## UwU
+好看
 
-🏫 中学生  
-🙅‍♂️💴 穷  
-🎮 Van游戏: Minecraft, Overwatch, 塞尔达传说, ULTRAKILL, 5dc, Mindustry  
-⌨️ 语言: C++, Java, html & css
+说实话，比那些杰基尔主题好不知道多少倍了
 
-## Contact
-
-邮箱 [MHYC133@outlook.com](mainto:MHYC133@outlook.com)  
-bilibili [MHYC133](https://space.bilibili.com/1251782597)  
-捐赠 [Buy me a coffee](https://www.buymeacoffee.com/MHYC)  
-itch.io [mhyc133.itch.io](https://mhyc133.itch.io/)  
-博客 [MHYC.eu.org](https://mhyc.eu.org)  
+原作者未给出开源协议，我这里也就不加了
