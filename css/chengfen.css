@@ -1,0 +1,9 @@
+.cfbg{
+    background: url(../images/cool-background.png);
+    width: 97%;
+    z-index: 999;
+    position: relative;
+}
+.cfitem{
+    mask-image: url(../images/cl/ajr.png);
+}
